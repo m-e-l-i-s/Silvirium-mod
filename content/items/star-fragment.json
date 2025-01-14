@@ -1,0 +1,11 @@
+{
+    "name":"Star fragment",
+    "flammability": 0.5,
+    "radioactivity": 0,
+    "explosiveness": 0.2,
+    "charge": 0.5,
+    "research": {
+        "parent": "star-condenser"
+    },
+    "color":"ff5030ff"
+}

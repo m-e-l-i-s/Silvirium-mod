@@ -1,0 +1,11 @@
+{
+    "name":"Silvirum",
+    "flammability": 0,
+    "radioactivity": 0,
+    "explosiveness": 0,
+    "charge": 0,
+    "research": {
+        "parent": "dustyus"
+    },
+    "color":"ff5030ff"
+}

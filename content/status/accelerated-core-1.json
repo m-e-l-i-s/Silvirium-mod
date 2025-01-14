@@ -1,0 +1,21 @@
+{   "name":"Accelerated Core I",
+    "effect" :{
+    "lifetime":30,
+    "sizeFrom":0,
+    "sizeTo" : 2,
+    "strokeFrom" : 0,
+    "strokeTo":0.5,
+    "colorFrom":"ff5030ff",
+    "colorTo":"ff5030ff"
+},
+    "alwaysUnlocked": true,
+    "hideDetails":false,
+    "show":true,
+    "speedMultiplier":1.2,
+    "reloadMultiplier":1.2,
+    "buildSpeedMultiplier":1.2,
+    "dragMultiplier":1.2,
+    "effectChance":0.2,
+    "affinities":["accelerated-core-2"],
+    "transitionDamage":500
+}

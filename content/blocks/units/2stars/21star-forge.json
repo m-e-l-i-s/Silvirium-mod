@@ -1,0 +1,48 @@
+{
+"type": "UnitAssembler",
+"name": "Star Forge",
+"description": "Build and combine star units/components to create stronger units",
+"size": 6,
+"category": "units",
+"droneType": "U20",
+"research": "1-sand-factory",
+"requirements": [
+   "star-fragment/75",
+   "titanium/125",
+   "silicon/235",
+   "graphite/120"
+],
+"plans": [
+  {
+    "type":" AssemblerUnitPlan",
+    "unit": "U21",
+    "requirements": [
+      "sand-and-stars-2-star-wall/2",
+      "sand-and-stars-6-silicon-wall/1"
+    ],
+    "time":600
+  },{
+    "type":" AssemblerUnitPlan",
+    "unit": "U22D",
+    "requirements": [
+      "sand-and-stars-2-star-wall/2",
+      "sand-and-stars-6-silicon-wall/5"
+    ],
+    "time":600
+  },{
+    "type":" AssemblerUnitPlan",
+    "unit": "U26.0",
+    "requirements": [
+      "sand-and-stars-2-star-wall/50",
+      "sand-and-stars-6-silicon-wall/100"
+    ],
+    "time":600
+  }
+],
+"squareSprite": false,
+"consumes": {
+  "power": 3
+},
+"areaSize": 6,
+"buildCostMultiplier": 1.5
+}

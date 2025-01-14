@@ -1,0 +1,12 @@
+{
+  "localizedName": "[#ffffff]a [#dddd77]sandy [#ffffff]landing",
+  "description": "The frist sector of Dustyus.\n Survive against sand units and conquer this sector",
+  "difficulty": 4,
+  "planet": "dustyus",
+  "captureWave": 30,
+  "sector": 0,
+  "isLastSector": false,
+  "allowLaunchLoadout": false,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+}

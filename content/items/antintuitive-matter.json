@@ -1,0 +1,11 @@
+{
+  "name":"Antintuitive matter",
+  "flammability": 0.21,
+  "radioactivity": 0.15,
+  "explosiveness": -10,
+  "charge": -10,
+  "research": {
+    "parent": "star-fragment"
+},
+  "color":"09793f94"
+}

@@ -1,0 +1,55 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Slow Generator",
+/*  "description": "decreases energy consumption and shoot/production speed on range and generate power \nexpode on destroy(40 damage to all in range)",*/
+  "description": "Experimental build with unstable tecnology\nexpode on destroy(40 damage to all in range)",
+  "size":2,
+  "powerProduction":0.5,
+  "health":45,
+  "range": 48,
+  "canOverdrive":true,
+  "hasBoost": false,
+  "speedBoost":-0.5,
+  "reload": 120,
+  "category": "power",
+  "outputsPower":true,
+  "consumes": {
+    "power":-0.5,
+  "items":[
+  {
+      "item": "silicon",
+      "amount": 1,
+      "optional":false, 
+      "booster":false
+  }
+  ]
+},
+    "destroyBullet":{
+      "height": 0,
+      "width": 0,
+      "lifetime":0,
+      "status": "slow",
+      "statusDuration": 600,
+      "splashDamageRadius":48,
+      "splashDamage":40
+      "splashDamagePierce":true,
+  }
+  "requirements":[
+    {
+      "item": "copper",
+      "amount": 30
+    },
+    {
+      "item": "lead",
+      "amount": 25
+    },
+    {
+      "item": "titanium",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+  ]
+}
