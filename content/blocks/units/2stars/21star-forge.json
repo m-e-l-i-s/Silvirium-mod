@@ -5,7 +5,6 @@
 "size": 6,
 "category": "units",
 "droneType": "U20",
-"research": "1-sand-factory",
 "requirements": [
    "star-fragment/75",
    "titanium/125",
@@ -17,24 +16,24 @@
     "type":" AssemblerUnitPlan",
     "unit": "U21",
     "requirements": [
-      "sand-and-stars-2-star-wall/2",
-      "sand-and-stars-6-silicon-wall/1"
+      "silvirium-2-star-wall/2",
+      "silvirium-6-silicon-wall/1"
     ],
     "time":600
   },{
     "type":" AssemblerUnitPlan",
     "unit": "U22",
     "requirements": [
-      "sand-and-stars-2-star-wall/6",
-      "sand-and-stars-6-silicon-wall/4"
+      "silvirium-2-star-wall/6",
+      "silvirium-6-silicon-wall/4"
     ],
     "time":600
   },{
     "type":" AssemblerUnitPlan",
     "unit": "U26.0",
     "requirements": [
-      "sand-and-stars-2-star-wall/500",
-      "sand-and-stars-6-silicon-wall/1000"
+      "silvirium-2-star-wall/500",
+      "silvirium-6-silicon-wall/1000"
     ],
     "time":600
   }
@@ -45,5 +44,5 @@
 },
 "areaSize": 6,
 "buildCostMultiplier": 1.5,
-"research": "dustyus"
+"research": "11-sand-factory",
 }
