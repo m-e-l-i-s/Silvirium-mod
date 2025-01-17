@@ -23,18 +23,18 @@
     "time":600
   },{
     "type":" AssemblerUnitPlan",
-    "unit": "U22D",
+    "unit": "U22",
     "requirements": [
-      "sand-and-stars-2-star-wall/2",
-      "sand-and-stars-6-silicon-wall/5"
+      "sand-and-stars-2-star-wall/6",
+      "sand-and-stars-6-silicon-wall/4"
     ],
     "time":600
   },{
     "type":" AssemblerUnitPlan",
     "unit": "U26.0",
     "requirements": [
-      "sand-and-stars-2-star-wall/50",
-      "sand-and-stars-6-silicon-wall/100"
+      "sand-and-stars-2-star-wall/500",
+      "sand-and-stars-6-silicon-wall/1000"
     ],
     "time":600
   }
@@ -44,5 +44,6 @@
   "power": 3
 },
 "areaSize": 6,
-"buildCostMultiplier": 1.5
+"buildCostMultiplier": 1.5,
+"research": "dustyus"
 }
