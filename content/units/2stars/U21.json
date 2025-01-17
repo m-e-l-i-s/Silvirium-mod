@@ -19,7 +19,7 @@
   "weapons": [
     {
       "name": "U21-laser",
-      "x": 3,
+      "x": 0,
       "y": 0,
       "reload": 120,
       "shootSound": "none",
@@ -29,16 +29,17 @@
       "display":false,
       "shoot": {
           "type":"ShootHelix",
-          "scl" : 1,
-          "mag" : 2,
+          "scl" : 4,
+          "mag" : 1,
           },
       "bullet": {
         "type": "LaserBulletType",
           "damage": 15,
+          "lifetime":60,
           "length": 80,
           "range":80,
           "status": "burning",
-          "statusDuration": 60,
+          "statusDuration": 120,
           "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
       }
      },
