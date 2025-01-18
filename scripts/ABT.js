@@ -1,3 +1,4 @@
 
-const ABT = extend(ItemTurret, "anti-building-turret", {});
-ABT.unitFilter = u -> false,
+const ABT = extend(ItemTurret, "anti-building-turret", {
+  health:500
+});
