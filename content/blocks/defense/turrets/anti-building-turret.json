@@ -1,5 +1,5 @@
 {
-  "type":"ItemTurret",
+//  "type":"ItemTurret",
   "name":"[red]Anti Building Turret",
   "description":"Fires A.B.R(Anti Building Rounds)",
   "reload":1200,
@@ -15,7 +15,6 @@
        "amount": 1.5,
     } 
   },
-//  "unitFilter":u -> false,
   "researchCostMultiplier": 0.8,
   "inaccuracy": 0,
   "targetAir": true,
