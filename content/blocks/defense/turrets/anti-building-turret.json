@@ -1,5 +1,5 @@
 {
-//  "type":"ItemTurret",
+  "type":"ItemTurret",
   "name":"[red]Anti Building Turret",
   "description":"Fires A.B.R(Anti Building Rounds)",
   "reload":1200,
