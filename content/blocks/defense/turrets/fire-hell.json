@@ -4,7 +4,6 @@
   "description": "Generate a hell of fire in front of it",
   "health": 1950,
   "reload": 12,
-  "ConsumeLiquidBase":"slag",
   "targetHealing":true,
   "coolantMultiplier":2,
   "range": 80,
@@ -25,7 +24,7 @@
   "inaccuracy":8,
   "targetAir": true,
   "targetGround": true,
-  "shootY":-4,
+  "shootY":-2,
       "shoot": {
           "type": "ShootAlternate",
           "spread":6,
