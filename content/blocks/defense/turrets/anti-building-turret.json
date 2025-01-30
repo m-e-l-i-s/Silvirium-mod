@@ -237,11 +237,11 @@
       "absorbable": false,
       "height": 48,
       "width": 4,
-      "frontColor":"ffe8e8",
-      "backColor":"f9c2ba",
+      "frontColor":"ff795e",
+      "backColor":"ff795e",
       "damage": 80,
       "speed": 2,
-      lifetime
+      "lifetime":1200,
       "hitSize": 8,
       "pierce": true,
       "pierceBuilding": true,
@@ -262,6 +262,8 @@
         "lifetime":300,
         "homingPower": 0.05,
         "homingRange": 16,
+        "frontColor":"ff795e",
+        "backColor":"ff795e",
       },
     },
       "surge-alloy":{
