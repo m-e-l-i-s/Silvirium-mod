@@ -5,7 +5,7 @@
     "explosiveness": 0.2,
     "charge": 0.5,
     "research": {
-        "parent": "star-condenser"
+        "parent": "silvirium"
     },
     "color":"ff5030ff"
 }
