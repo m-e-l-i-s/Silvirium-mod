@@ -68,7 +68,7 @@
           "boilTime":900,
           "despawnHit":true,
           "pierce":true,
-          "lifetime":2,
+          "lifetime":10,
           "absorbable": false,
   }}
     },
@@ -244,7 +244,9 @@
       "width": 16,
       "frontColor":"ff795e",
       "backColor":"ff795e",
-      "damage": 80,
+      "damage": 10,
+      "splashDamageRadius":48,
+      "splashDamage":40,
       "speed": 2,
       "lifetime":1200,
       "hitSize": 16,
@@ -263,6 +265,8 @@
       "intervalBullet":{
         "type":"BombBulletType",
         "sprite":"large-orb-back",
+        "splashDamageRadius":48,
+        "splashDamage":10,
         "collidesAir":true,
         "height": 12,
         "width": 8,
