@@ -1,0 +1,51 @@
+{
+  "name":"star condenser",
+  "type": "GenericCrafter",
+  "description":"Create star fragments",
+  "size": 2,
+  "category": "crafting",
+  "research": "pulverizer",
+  "hasLiquids":true,
+  "hasItems":true,
+  "ambientSound": "glow",
+  "ambientSoundVolume":2,
+  "requirements": [
+     "copper/120",
+     "lead/40",
+     "silicon/90",
+     "silvirum/90",
+     "titanium/30"
+  ],
+  "consumes": {
+    "power":10,
+  "liquids":[
+  {
+      "liquid": "water",
+      "amount": 0.1
+  }
+  ]
+},
+  "craftTime":750,
+  "outputItem": {
+     "item": "star-fragment",
+     "amount": 2
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color":"ff5030ff",
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "water",
+        "suffix": "-liquid",
+      }
+    ]
+  }
+}

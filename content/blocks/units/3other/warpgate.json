@@ -1,0 +1,27 @@
+{
+ "type":"PayloadMassDriver",
+ "name":"Warpgate",
+"description": "Teleport payloads to another warpgate. \nconsumition:insane amounts of power(almost half an impact reactor EACH and you need at least 2).\ncost:yes",
+"consumes": {
+  "power": 125,
+},
+"category": "units",
+"research": "mass-driver",
+"requirements": [
+  "surge-alloy/14500"
+  "silicon/20000"
+  "antintuitive-matter/11000"
+  "titanium/19500"
+  "copper/19500"
+  "lead/19500"
+],
+"solid":false,
+"reload":30,
+"chargeTime": 30,
+"range": 8000,
+"maxPayloadSize": 9,
+"scaledHealth":90,
+"size": 7,
+"buildCostMultiplier":0.01,
+"researchCostMultiplier":0.01
+}

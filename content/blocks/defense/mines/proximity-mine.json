@@ -1,0 +1,58 @@
+{
+  "type": "powerTurret",
+  "name": "Proximity mine",
+  "description": "This mine self-deftructs on proximity to explode enemy targets",
+  "health": 200,
+  "range":24,
+  "trackingRange":32,
+  "size": 1,
+  "reload":12,
+  "researchCostMultiplier": 1.5,
+  "buildCostMultiplier":0.5,
+  "inaccuracy": 0,
+  "targetAir": false,
+  "targetGround": true,
+  "underBullets": true,
+  "destructible": true,
+  "solid": false,
+  "targetable": false,
+  "shootType": {
+        "type": "ExplosionBulletType",
+        "collidesAir":false,
+        "pierce":true,
+        "pierceBuilding":true,
+        "impact":false,
+        "despawnHit":false,
+        "splashDamage":75,
+        "splashDamageRadius":25,
+        "status": "blasted"
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [{
+        "type":"RegionPart",
+        "suffix":"-base",
+        "mirror":false,
+        "progress":"recoil",
+        "x":0,
+        "y":0,
+        "moveY":0,
+        "rotation":0,
+        "under": false,
+        //"layer":,
+        }]},
+  "requirements":[{
+      "item": "coal",
+      "amount": 10
+    },
+    {
+      "item": "copper",
+      "amount": 50
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    }],
+  "category": "effect",
+  "research":"fire-hell"
+}

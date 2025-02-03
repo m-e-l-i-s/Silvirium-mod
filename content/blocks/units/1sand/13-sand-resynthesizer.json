@@ -1,0 +1,34 @@
+{
+    "type": "Reconstructor",
+    "name": "Sand resynthesizer",
+    "description": "Upgrade Sand Piercers to Sand Walkers.",
+    "health": 1800,
+    "size": 5,
+    "constructTime": 1800,
+    "upgrades": [
+        ["U12", "U13.0"]
+    ],
+    "consumes": {
+        "power": 3,
+         "liquids": [
+        {
+            "liquid": "water",
+            "amount": 1
+        }],
+        "items": {
+            "items": [
+              "silicon/200",
+              "sand/120", 
+              "coal/80"
+            ]
+        }
+    },
+    "requirements": [
+      "sand/255",
+      "coal/135",
+      "silicon/175",
+      "titanium/130"
+    ],
+    "category": "units",
+    "research": "12-sand-reconfigurer"
+}

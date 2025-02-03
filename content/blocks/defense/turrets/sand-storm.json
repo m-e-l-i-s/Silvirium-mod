@@ -1,0 +1,103 @@
+{
+  "type": "ItemTurret",
+  "name": "[yellow]Sand storm",
+  "description": "Fires a laser beam at ground enemies, causing serious mechanical damage and weakening them.",
+  "health": 945,
+  "reload": 120,
+  "coolantMultiplier":1,
+  "range": 320,
+  "trackingRange":360,
+  "size": 3,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.2
+    }
+  },
+  "shootSound": "laser",
+  "unitSort":"strongest",
+  "researchCostMultiplier": 1,
+  "inaccuracy":0,
+  "predictTarget":false,
+  "targetAir": true,
+  "targetGround": true,
+  "shootY":0,
+  "ammoPerShot":5,
+  "maxAmmo":20,
+  "ammoTypes": {
+      "sand":{
+          "type":"PointBulletType",
+          "trailEffect":{
+              "type": "MultiEffect",
+              "effects":[
+              {
+              "type": "ParticleEffect",
+              "particles": 1,
+              "rotWithParent": true,
+              "line": true,
+              "length":75,
+              "colorFrom": "ffffff",
+              "colorTo": "eac2a9",
+              "sizeFrom": 10,
+              "sizeTo": 10,
+              "cone":0
+              },{
+              "type": "ParticleEffect",
+              "particles": 2,
+              "rotWithParent": true,
+              "line": true,
+              "length":50,
+              "colorFrom": "ffffff",
+              "colorTo": "eac2a9",
+              "sizeFrom": 3,
+              "sizeTo": 12,
+              "cone":360
+              }]
+          },
+          "trailSpacing":15,
+          "damage":80,
+          "fragBullets":5,
+          "status": "terror",
+          "statusDuration": 180,
+          "fragBullet":{
+              "type": "fireBulletType",
+              "collides": true,
+              "collidesAir" : true,
+              "collidesTiles" : true,
+              "fireTrailChance" : 0,
+              "speed": 8,
+              "lifetime": 20,
+              "damage": 1,
+              "pierce": true,
+              "pierceBuilding": true,
+              "shootEffect": "none",
+              "smokeEffect": "none",
+              "colorFrom":"fff0af",
+              "colorMid":"ddd08d",
+              "colorTo":"999049",
+              "fireEffectChance":0,
+              "fireEffectChance2":0,
+              "velMin":8,
+              "velMax":8,
+              "status": "disrupted",
+              "statusDuration": 1800,
+              "homingPower":6,
+              "homingRange":60,
+          }
+      }
+  },
+  "requirements":[{
+      "item": "silicon",
+      "amount": 60,
+    },{
+      "item": "copper",
+      "amount": 75
+    },{
+      "item": "lead",
+      "amount": 50
+    },{
+      "item": "sand",
+      "amount":60,
+    }],
+  "category": "turret",
+  "research":"anti-building-turret"
+}
