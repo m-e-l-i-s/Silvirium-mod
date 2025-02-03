@@ -1,0 +1,38 @@
+{
+ "name":"Sand Block",
+ "description": "This wall is very resistant to crushing , E.M.P and low damage bullet spam, by suplayng it with sand can regenerate.",
+ "size":2,
+ "category":"defense",
+ "requirements":
+     [{"item":"sand","amount":"36"}],
+     "liquidCapacity":30,
+     "health":700,
+     "type":"MendProjector",
+     "armor":10,
+     "buildCostMultiplier":0.5,
+     "reload":120,
+     "phaseRangeBoost":0,
+     "range":0.1,
+     "healPercent":10,
+ "consumes": { 
+"items":[{
+"item": "sand",
+"amount":2,
+"optional":false,
+"booster":false,
+}], 
+"liquid":{
+"liquid":"water", 
+"amount":0.12,
+"optional":true, 
+"booster":true,
+}
+ }, 
+"nuderBullets":false,
+"hasItems" :true,
+"hasLiquids" :true,
+"itemCapacity":20,
+"suppressable":false,
+"crushDamageMultiplier":0.01,
+"placeableLiquid":true,
+}

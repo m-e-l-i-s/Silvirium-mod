@@ -1,0 +1,23 @@
+{
+ "type": "tether",
+ "name": "Star Arquitect",
+ "description": "Construct star units.",
+ "health": 120,
+ "speed": 2,
+ "drag": 0.1,
+ "engineSize": 1,
+ "engineOffset": 4,
+ "payloadCapacity": 0,
+ "targetable": false,
+ "flying": true,
+ "bounded": false,
+ "outline": false,
+ "isEnemy": false,
+ "hidden": true,
+ "useUnitCap": false,
+ "logicControllable": false,
+ "playerControllable": false,
+ "allowedInPayloads": false,
+ "createWreck": false,
+ "controller": "AssemblerAI"
+}

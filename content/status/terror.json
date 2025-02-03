@@ -1,0 +1,18 @@
+{   name:"terror"
+    effect :{
+        "type": "WaveEffect",
+        "sizeFrom": 6,
+        "sizeTo": 0,
+        "lifetime": 30,
+        "colorFrom": "000000",
+        "colorTo": "44446699",
+},
+    "alwaysUnlocked": true,
+    "hideDetails":false,
+    "show":true,
+    "speedMultiplier":0.6,
+    "reloadMultiplier":0.6,
+    "buildSpeedMultiplier":0.6,
+    "effectChance":0.2,
+    "damage":0,
+}
