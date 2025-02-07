@@ -6,7 +6,7 @@
   "reload": 120,
   "coolantMultiplier":1,
   "range": 320,
-  "trackingRange":360,
+  "trackingRange":400,
   "size": 3,
   "consumes": { 
     "coolant": { 
@@ -28,8 +28,7 @@
           "type":"PointBulletType",
           "trailEffect":{
               "type": "MultiEffect",
-              "effects":[
-              {
+              "effects":[{
               "type": "ParticleEffect",
               "particles": 1,
               "rotWithParent": true,
@@ -55,7 +54,7 @@
           },
           "trailSpacing":15,
           "damage":80,
-          "fragBullets":5,
+          "fragBullets":1,
           "status": "terror",
           "statusDuration": 180,
           "fragBullet":{
@@ -66,8 +65,9 @@
               "fireTrailChance" : 0,
               "speed": 8,
               "lifetime": 20,
-              "damage": 1,
+              "damage": 10,
               "pierce": true,
+              "pierceCap":5,
               "pierceBuilding": true,
               "shootEffect": "none",
               "smokeEffect": "none",
@@ -80,7 +80,7 @@
               "velMax":8,
               "status": "disrupted",
               "statusDuration": 1800,
-              "homingPower":6,
+              "homingPower":9,
               "homingRange":60,
           }
       }
