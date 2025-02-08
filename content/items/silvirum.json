@@ -4,10 +4,8 @@
     "radioactivity": 0,
     "explosiveness": 0,
     "charge": 0,
-    "hardness":1.4,
-    "cost":1.4,
-    "research": {
-        "parent": "dustyus"
-    },
+    "hardness":1.6,
+    "cost":1.6,
+    "research":"dustyus"
     "color":"00fff7"
 }
