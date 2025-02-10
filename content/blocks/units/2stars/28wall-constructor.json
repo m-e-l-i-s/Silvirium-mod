@@ -1,0 +1,30 @@
+{
+    "type": "Constructor",
+    "name": "Wall constructor",
+    "description":"" ,
+    "size": 2,
+    "category": "units",
+    "requirements":[
+        "star-fragment/55",
+        "titanium/145",
+        "silicon/90",
+        "graphite/65"
+    ],
+    "hasPower": true,
+    "consumes": {
+        "power": 1
+    },
+    "buildSpeed": 0.1,
+    "filter": [
+    "2-star-wall",
+    "3-star-wall-large",
+    "4-concentrated-star-wall",
+    "5-concentrated-star-wall-large",
+    "6-silicon-wall"
+    ],
+    "research": "21star-forge",
+    "squareSprite": false,
+    "buildCostMultiplier": 2,
+    "maxBlockSize": 2
+}
+

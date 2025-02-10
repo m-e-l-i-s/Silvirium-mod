@@ -1,0 +1,38 @@
+{
+    "type": "Reconstructor",
+    "name": "Sand Remelter",
+    "description": "Upgrade Quicksands intro temible Sand Watchers.",
+    "health":7200,
+    "size": 9,
+    "constructTime": 7200,
+    "upgrades": [
+        ["U14", "U15"]
+    ],
+    "consumes": {
+        "power": 4,
+        "liquids": [
+        {
+            "liquid": "slag",
+            "amount": 1
+        }],
+        "items": {
+            "items": [
+              "silicon/1500", 
+              "silvirum/890",
+              "titanium/650",
+              "thorium/650",
+              "surge-alloy/300"
+            ]
+        }
+    },
+    "requirements": [
+      "silicon/2500",
+      "silvirum/1130",
+      "titanium/1870",
+      "plastanium/270",
+      "thorium/810",
+      "surge-alloy/740"
+    ],
+    "category": "units",
+    "research": "14-sand-regrower"
+}

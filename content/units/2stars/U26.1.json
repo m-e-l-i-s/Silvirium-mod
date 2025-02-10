@@ -1,0 +1,69 @@
+{
+  "type": "missile",
+  "controller": "MissileAI",
+  "lowAltitude": false,
+  "speed": 2,
+  "rotateSpeed": 5,
+  "lifetime": 240,
+  "targetable":false,
+  "isEnemy": false,
+  "allowedInPayloads": false,
+  "playerControllable": false,
+  "physics": false,
+  "useUnitCap": false,
+  "createWreck": false,
+  "createScorch": false,
+  "drawCell": false,
+  "drawBody": false,
+  "flying": true,
+  "hidden": true,
+  "health": 6000,
+  "armor":1000,
+  "hitSize": 0.8,
+  "engineSize": 1,
+  "engineLayer":109,
+  "maxRange": 16,
+  "trailColor": "FF6611",
+  "trailLength": 4,
+  "trailWidth":0.5,
+  "stepShake":4,
+  "parts":[{
+      "type": "FlarePart",
+      "outline" : false,
+      "mirror" : false,
+      "stroke":8,
+      "innerScl":0.9,
+      "innerRadScl":2,
+      "sides":5,
+      "radius":12,
+      "color1":"DD3300"
+      "color2":"FF5500"
+      "followRotation":true,
+  }]
+  "weapons": [
+  {
+      "name": "star-missile-explosion-weapon",
+      "x": 0,
+      "shootCone": 360,
+      "shootSound": "explospion",
+      "shootY": 0,
+      "rotate": false,
+      "mirror": false,
+      "shootCone": 360,
+      "shootOnDeath": true,
+      "controllable": true,
+      "bullet":{
+          "type":"ExplosionBulletType"
+          "splashDamage": 1200,
+          "splashDamageRadius": 36,
+          "hitEffect":{
+              "type": "WaveEffect",
+              "sizeFrom": 36,
+              "sizeTo": 0,
+              "lifetime": 30,
+              "colorFrom": "FF9944",
+              "colorTo": "AA330077"
+          },
+      }
+  }],
+}

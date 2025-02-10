@@ -1,0 +1,107 @@
+{
+  "type": "Separator",
+  "name": "space deformator",
+  "description": "$÷%(=?@/÷ /&÷ #)@#÷ /( ^÷/ @ #/=@,^÷ @,$ @,/£ £,/€£/£:÷ ?@//÷=o■£^/& \"(,#€?£/£(,p",
+  "size": 4,
+  "hasPower": true,
+  "solid": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidCapacity": 80,
+  "craftTime": 60,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "slag",
+        "suffix": "-liquid-1"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "oil",
+        "suffix": "-liquid-2"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "cryofluid",
+        "suffix": "-liquid-3"
+      },
+    ]
+  }
+  "consumes": {
+    "power":15,
+   "liquids": [
+  {
+      "liquid": "oil",
+      "amount": 0.3
+  },
+  {
+      "liquid": "cryofluid",
+      "amount": 0.3
+  },
+  {
+      "liquid": "slag",
+      "amount": 0.3
+  }
+  ],
+    "items": {
+      "items": [
+        {
+          "item": "lead",
+          "amount": 2
+        },
+        {
+          "item": "spore-pod",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 900
+    },
+    {
+      "item": "plastanium",
+      "amount": 210
+    },
+    {
+      "item": "plastanium",
+      "amount": 420
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 420
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 830
+    }
+  ],
+  "results": [
+    {
+      "item": "antintuitive-matter",
+      "amount": 1
+    },
+    {
+      "item": "scrap",
+      "amount": 180
+    },
+    {
+      "item": "lead",
+      "amount": 10
+    },
+    {
+      "item": "copper",
+      "amount": 10
+    },
+  ],
+  "category": "crafting",
+  "research": "star-condenser"
+  "health": 900
+}

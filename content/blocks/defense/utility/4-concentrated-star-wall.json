@@ -1,0 +1,15 @@
+{
+ "type": "Wall",
+ "name": "[#FF5500]Concentrted star wall",
+ "description": "Is a more reactive version of the [#FF5500]star wall",
+ "health":100,
+ "size": 1,
+ "lightningDamage": 10,
+ "lightningChance": 1,
+ "lightningColor": "FF7722",
+ "requirements": [
+  "star-fragment/12"
+  ],
+ "research":"3-star-wall-large",
+ "category": "defense",
+}
