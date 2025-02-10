@@ -1,0 +1,48 @@
+{
+  "type": "mech",
+  "name": "Inviser",
+  "description": "(T2)Deals high damage with fast firing 2 dual laser guns",
+  "speed": 0.6,
+  "rotateMoveFirst":true,
+  "hitSize": 12,
+  "health":500,
+  "armor":0,
+  "range":40,
+  "shadowElevationScl":1,
+  "shadowElevation":0.2,
+  "maxRange":200,
+  "drag": 3,
+  "immunities": ["burning"],
+  "ammoCapacity":600,
+  "ammoType":"coal",
+  "weapons": [
+  {
+      "name": "inviser-laser-weapon",
+      "mirror": true,
+      "rotate": true,
+      "rotateSpeed": 10,
+      "rotationLimit": 15,
+      "x": 3,
+      "y":0,
+      "shoot": {
+          "type":"ShootBarrel",
+          "barrels":[
+//        x    y    rot      
+          -0.5,   1, 0, 
+          2   ,-1.5, 0,
+      ],
+      "barrelOffset": 1,
+      },
+      "reload":30,
+      "shootSound": "laser",
+      "bullet": {
+          "type": "LaserBulletType",
+          "damage": 50,
+          "length": 40,
+          "status": "burning",
+          "statusDuration": 60,
+          "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
+      }
+    },
+],
+}

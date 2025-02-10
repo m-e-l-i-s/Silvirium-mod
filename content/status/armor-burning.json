@@ -1,0 +1,16 @@
+{   "name":"Armor Burning",
+    "effect" :{
+    "sizeFrom" :1,
+    "sizeTo" : 0,
+    "strokeFrom" : 1,
+    "strokeTo":0,
+    "colorFrom":"FF5500",
+    "colorTo":"AA000088"
+},
+    "alwaysUnlocked": true,
+    "hideDetails":false,
+    "show":true,
+    "permanent":true,
+    "affinities":["sand-nerf"],
+    "transitionDamage":300,
+}

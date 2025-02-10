@@ -1,0 +1,19 @@
+{
+    "type": "UnitAssemblerModule",
+    "name":"T1 star coso",
+    "description":"",
+    "size": 1,
+    "category": "units",
+    "research": "21star-forge",
+    "requirements": [
+    "star-fragment/50",
+    "titanium/90",
+    "silicon/70",
+    "graphite/45"
+    ],
+    "consumes": {
+        "power": 1
+    },
+    "buildCostMultiplier": 2,
+    "tier":1,
+}
