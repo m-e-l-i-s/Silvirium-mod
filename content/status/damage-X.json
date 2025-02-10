@@ -1,7 +1,0 @@
-{   name:"damage X"
-    effect :"none"
-    "alwaysUnlocked": true,
-    "hideDetails":false,
-    "show":true,
-    "damage":1.6667,
-}
