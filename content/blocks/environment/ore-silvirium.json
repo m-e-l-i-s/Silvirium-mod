@@ -1,8 +1,0 @@
-{
-  "type": "OreBlock",
-  "localizedName": "Silvirum",
-  "itemDrop": "silvirum",
-  "hasColor": true,
-  "mapColor": "00fff7",
-  "variants": 2
-}
