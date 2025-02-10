@@ -1,0 +1,29 @@
+{
+    "type": "Reconstructor",
+    "name": "Sand reconfigurer",
+    "description": "Upgrades basic sand units to the next tier.",
+    "health": 900,
+    "size": 3,
+    "constructTime": 900,
+    "upgrades": [
+        ["U16", "U11"]
+        ["U11", "U12"]
+    ],
+    "consumes": {
+        "power": 2.5,
+        "items": {
+            "items": [
+              "silicon/30",
+              "sand/90", 
+              "coal/10",
+            ]
+        }
+    },
+    "requirements": [
+      "sand/120",
+      "coal/80",
+      "silicon/120"
+    ],
+    "category": "units",
+    "research": "11-sand-factory"
+}

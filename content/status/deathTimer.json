@@ -1,0 +1,6 @@
+{   "name":"Death Timer",
+    "effect" :"none",
+    "alwaysUnlocked": true,
+    "hideDetails":false,
+    "show":true,
+}
