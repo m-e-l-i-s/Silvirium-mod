@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "Sand Remelter",
-    "description": "Upgrade Quicksands intro temible Sand Watchers.",
+    "name": "Silvirum Remelter",
+    "description": "Upgrade (silvirum T4) intro temible (silvirum T5).",
     "health":7200,
     "size": 9,
     "constructTime": 7200,
@@ -17,10 +17,10 @@
         }],
         "items": {
             "items": [
-              "silicon/1500", 
-              "silvirum/890",
-              "titanium/650",
-              "thorium/650",
+              "silicon/2000", 
+              "silvirum/2700",
+              "titanium/890",
+              "thorium/700",
               "surge-alloy/300"
             ]
         }
@@ -34,5 +34,5 @@
       "surge-alloy/740"
     ],
     "category": "units",
-    "research": "14-sand-regrower"
+    "research": "14-silvirum-regrower"
 }
