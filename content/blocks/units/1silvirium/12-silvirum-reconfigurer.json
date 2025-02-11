@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "Sand reconfigurer",
-    "description": "Upgrades basic sand units to the next tier.",
+    "name": "Silvirum reconfigurer",
+    "description": "Upgrades basic Silvirum units to the next tier.",
     "health": 900,
     "size": 3,
     "constructTime": 900,
@@ -11,19 +11,18 @@
     ],
     "consumes": {
         "power": 2.5,
-        "items": {
-            "items": [
-              "silicon/30",
-              "sand/90", 
-              "coal/10",
+        "items":{
+            "items":[
+                "silvirum/40",
+                "silicon/30",
             ]
         }
     },
     "requirements": [
-      "sand/120",
-      "coal/80",
+      "silvirum/40",
+      "copper/80",
       "silicon/120"
     ],
     "category": "units",
-    "research": "11-sand-factory"
+    "research": "11-silvirum-factory"
 }
