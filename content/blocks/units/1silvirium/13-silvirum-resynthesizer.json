@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "Sand resynthesizer",
-    "description": "Upgrade Sand Piercers to Sand Walkers.",
+    "name": "Silvirium resynthesizer",
+    "description": "Upgrade (silvirum T2) to (silvirum T3).",
     "health": 1800,
     "size": 5,
     "constructTime": 1800,
@@ -18,17 +18,17 @@
         "items": {
             "items": [
               "silicon/200",
-              "sand/120", 
-              "coal/80"
+              "silvirum/120",
+              "titanium/10"
             ]
         }
     },
     "requirements": [
-      "sand/255",
-      "coal/135",
+      "silvirum/120",
+      "copper/120",
       "silicon/175",
       "titanium/130"
     ],
     "category": "units",
-    "research": "12-sand-reconfigurer"
+    "research": "12-silvirum-reconfigurer"
 }
