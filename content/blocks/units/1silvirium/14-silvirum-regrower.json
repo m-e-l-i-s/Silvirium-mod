@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "Sand regrower",
-    "description": "Upgrades Sand Walkers to powerful Quicksands.",
+    "name": "Silvirum regrower",
+    "description": "Upgrades (silvirum T3) to powerful (silvirum T4).",
     "health": 3600,
     "size": 7,
     "constructTime": 3600,
@@ -16,19 +16,18 @@
         }],
         "items": {
             "items": [
-              "silicon/500",
-              "titanium/400", 
-              "thorium/250"
-              "silvirum/1000"
+              "silicon/1000",
+              "titanium/440", 
+              "thorium/280",
+              "silvirum/1200"
             ]}
     },
     "requirements": [
-      "sand/950",
-      "coal/800",
-      "silicon/650",
-      "titanium/260",
-      "thorium/200"
+      "silvirum/1200",
+      "silicon/750",
+      "titanium/460",
+      "thorium/300"
     ],
     "category": "units",
-    "research": "13-sand-resynthesizer"
+    "research": "13-silvirum-resynthesizer"
 }
