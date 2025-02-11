@@ -1,7 +1,7 @@
 {
   "type": "mech",
   "name": "[#88aaff]Silvirror",
-  "description": "the first silvirium unit, equipped with 2 short-range twin conrinuous flame and 1 medium-range center cannon. \nless effective against buildings",
+  "description": "the first silvirium unit, equipped with 2 short-range twin conrinuous flamethrower and 1 medium-range center cannon. \nless effective against buildings",
   "speed": 1.2,
   "rotateMoveFirst":true,
   "hitSize": 8,
@@ -50,18 +50,20 @@
         "hittable":false,
         "collidesAir":true,
         "pierce":true,
+        "pierceCap":3,
         "pierceBuilding":true,
+        "buildingDamageMultiplier": 0.5,
         "status":"disrupted",
         "statusDuration":900,
         "impact":false,
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
-        1.1,1.2,6.4
-        1.0,1.0,3.2
-        0.9,0.8,1.6
-        0.8,0.6,0.8
-        0.7,0.4,0.4
+          1.1,1.2,0.2,
+          1.0,1.0,0.4,
+          0.9,0.8,0.6,
+          0.8,0.6,0.8,
+          50.7,0.4,1.0
         ],
         "hitEffect":{
         "type": "ParticleEffect",
@@ -74,7 +76,7 @@
         "colorTo": "222744",
         "sizeFrom": 0.2,
         "sizeTo": 1,
-        "baseLength":1,
+        "baseLength":0.5,
         "interp":"pow3OutInverse",
         "cone":360
         },
@@ -110,18 +112,20 @@
         "hittable":false,
         "collidesAir":true,
         "pierce":true,
+        "pierceCap":3,
         "pierceBuilding":true,
+        "buildingDamageMultiplier": 0.5,
         "status":"disrupted",
         "statusDuration":900,
         "impact":false,
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
-        1.1,1.2,6.4
-        1.0,1.0,3.2
-        0.9,0.8,1.6
-        0.8,0.6,0.8
-        0.7,0.4,0.4
+          1.1,1.2,0.2,
+          1.0,1.0,0.4,
+          0.9,0.8,0.6,
+          0.8,0.6,0.8,
+          50.7,0.4,1.0
         ],
         "hitEffect":{
         "type": "ParticleEffect",
@@ -134,12 +138,11 @@
         "colorTo": "222744",
         "sizeFrom": 0.2,
         "sizeTo": 1,
-        "baseLength":1,
+        "baseLength":0.5,
         "interp":"pow3OutInverse",
         "cone":360
         },
-        "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],
-      }
+        "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],      }
     },
     {
       "name": "U11-center",
@@ -168,7 +171,7 @@
         "pierce": true,
         "pierce":4,
         "pierceBuilding": true,
-        "buildingDamageMultiplier": 0.25,
+        "buildingDamageMultiplier": 0.75,
         "shootEffect": "none",
         "colorFrom":"88aaff",
         "colorMid":"445588",
