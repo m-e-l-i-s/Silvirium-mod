@@ -29,7 +29,7 @@
       "shootCone": 10,
       "shootX": 0,
       "shootY": 2,
-      "mirror": true,
+      "mirror": false,
       "rotate":true,
       "top": false,
       "rotateSpeed": 2,
@@ -57,11 +57,11 @@
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
-        1.1,1.2,1
-        1.0,1.0,0.8
-        0.9,0.8,0.6
-        0.8,0.6,0.4
-        0.7,0.4,0.2
+        1.1,1.2,6.4
+        1.0,1.0,3.2
+        0.9,0.8,1.6
+        0.8,0.6,0.8
+        0.7,0.4,0.4
         ],
         "hitEffect":{
         "type": "ParticleEffect",
@@ -82,14 +82,14 @@
       }
     },{
       "name": "U11-side-L",
-      "x": 8,
+      "x": -8,
       "y": 0,
       "reload": 60,
       "shootSound": "flame",
       "shootCone": 10,
       "shootX": 0,
       "shootY": 2,
-      "mirror": true,
+      "mirror": false,
       "rotate":true,
       "top": false,
       "rotateSpeed": 2,
@@ -117,11 +117,11 @@
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
-        1.1,1.2,1
-        1.0,1.0,0.8
-        0.9,0.8,0.6
-        0.8,0.6,0.4
-        0.7,0.4,0.2
+        1.1,1.2,6.4
+        1.0,1.0,3.2
+        0.9,0.8,1.6
+        0.8,0.6,0.8
+        0.7,0.4,0.4
         ],
         "hitEffect":{
         "type": "ParticleEffect",
