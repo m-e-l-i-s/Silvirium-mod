@@ -27,7 +27,7 @@
       "rotate": false,
       "mirror": false,
       "continuous":true,
-      "alwaysContinuous":false,
+      "alwaysContinuous":true,
       "bullet": {
         "type": "BasicBulletType",
         "sprite":"particle",
@@ -35,7 +35,8 @@
         "collidesAir" : true,
         "collidesTiles" : true,
         "range":120,
-        "speed": 0,
+        "speed": 1,
+        "keepVelocity":false,
         "lifetime": 120,
         "damage": 25,
         "height": 8,
