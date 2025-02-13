@@ -1,6 +1,6 @@
 {
     "type": "Reconstructor",
-    "name": "Silvirum reconfigurer",
+    "name": "Silvirium reconfigurer",
     "description": "Upgrades basic Silvirium units to the next tier.",
     "health": 900,
     "size": 3,
