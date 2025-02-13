@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "Silvirum Remelter",
-    "description": "Upgrade (silvirum T4) intro temible (silvirum T5).",
+    "name": "[#88aaff]Silvirum Remelter",
+    "description": "Upgrade ([#88aaff]silvirum T4[]) intro temible ([#88aaff]silvirum T5[]).",
     "health":7200,
     "size": 9,
     "constructTime": 7200,
@@ -34,5 +34,5 @@
       "surge-alloy/740"
     ],
     "category": "units",
-    "research": "14-silvirum-regrower"
+    "research": "14-silvirium-regrower"
 }
