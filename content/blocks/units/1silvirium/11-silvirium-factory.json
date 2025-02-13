@@ -28,8 +28,7 @@
  "category":"units",
  "requirements":[
    "silicon/80",
-    "sand/20",
-    "lead/15"
+    "silvirium/20"
  ],
  "consumes":{
    "power":2
