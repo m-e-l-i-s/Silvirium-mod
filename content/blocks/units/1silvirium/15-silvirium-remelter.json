@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "[#88aaff]Silvirum Remelter",
-    "description": "Upgrade ([#88aaff]silvirum T4[]) intro temible ([#88aaff]silvirum T5[]).",
+    "name": "[#88aaff]Silvirium Remelter",
+    "description": "Upgrade ([#88aaff]Silvirium T4[]) intro temible ([#88aaff]Silvirium T5[]).",
     "health":7200,
     "size": 9,
     "constructTime": 7200,
@@ -18,7 +18,7 @@
         "items": {
             "items": [
               "silicon/2000", 
-              "silvirum/2700",
+              "silvirium/2700",
               "titanium/890",
               "thorium/700",
               "surge-alloy/300"
@@ -27,7 +27,7 @@
     },
     "requirements": [
       "silicon/2500",
-      "silvirum/1130",
+      "silvirium/1130",
       "titanium/1870",
       "plastanium/270",
       "thorium/810",
