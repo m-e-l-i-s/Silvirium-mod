@@ -26,6 +26,8 @@
       "shootY": 0,
       "rotate": true,
       "mirror": false,
+      "continuous":true,
+      "alwaysContinuous":true,
       "shoot": {
             "type":"ShootSpread",
             "firstShotDelay":60,
