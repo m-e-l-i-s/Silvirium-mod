@@ -1,6 +1,6 @@
 {
  "type":"UnitFactory",
- "name":"[#88aaff]Silvirum Factory",
+ "name":"[#88aaff]Silvirium Factory",
  "description":"Produces basic [#88aaff]silvirium units.",
  "health":660,
  "plans":[{
