@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
     "name": "Silvirium resynthesizer",
-    "description": "Upgrade (silvirum T2) to (silvirum T3).",
+    "description": "Upgrade (silvirium T2) to (silvirium T3).",
     "health": 1800,
     "size": 5,
     "constructTime": 1800,
@@ -18,17 +18,17 @@
         "items": {
             "items": [
               "silicon/200",
-              "silvirum/120",
+              "silvirium/120",
               "titanium/10"
             ]
         }
     },
     "requirements": [
-      "silvirum/120",
+      "silvirium/120",
       "copper/120",
       "silicon/175",
       "titanium/130"
     ],
     "category": "units",
-    "research": "12-silvirum-reconfigurer"
+    "research": "12-silvirium-reconfigurer"
 }
