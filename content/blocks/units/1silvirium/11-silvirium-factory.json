@@ -1,26 +1,25 @@
 {
  "type":"UnitFactory",
  "name":"[#88aaff]Silvirum Factory",
- "description":"Produces basic [#88aaff]silvirum units.",
+ "description":"Produces basic [#88aaff]silvirium units.",
  "health":660,
  "plans":[{
     "unit": "U16",
     "requirements":[
-      "silvirum/5",
-      "silicon/5",
+      "silvirium/5",
       ],
       "time":120
       },{
       "unit": "U11",
       "requirements":[
-        "silvirum/40",
+        "silvirium/45",
         "silicon/30",
       ],
       "time": 1200
       },{
       "unit": "U17",
       "requirements":[
-        "silvirum/50",
+        "silvirium/50",
         "silicon/60",
       ],
       "time": 1200
