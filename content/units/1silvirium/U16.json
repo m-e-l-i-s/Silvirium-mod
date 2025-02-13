@@ -14,7 +14,7 @@
   "range":80,
   "maxRange":80,
   "ammoCapacity":900,
-  "ammoType":"silvirum",
+  "ammoType":"silvirium",
   "itemCapacity":0,
   "outlineRadius":0.1,
   "drag":0.8,
