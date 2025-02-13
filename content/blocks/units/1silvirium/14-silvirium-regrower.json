@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
     "name": "Silvirium regrower",
-    "description": "Upgrades (Silvirum T3) to powerful (Silvirum T4).",
+    "description": "Upgrades (Silvirium T3) to powerful (Silvirium T4).",
     "health": 3600,
     "size": 7,
     "constructTime": 3600,
@@ -19,15 +19,15 @@
               "silicon/1000",
               "titanium/440", 
               "thorium/280",
-              "silvirum/1200"
+              "silvirium/1200"
             ]}
     },
     "requirements": [
-      "silvirum/1200",
+      "silvirium/1200",
       "silicon/750",
       "titanium/460",
       "thorium/300"
     ],
     "category": "units",
-    "research": "13-silvirum-resynthesizer"
+    "research": "13-silvirium-resynthesizer"
 }
