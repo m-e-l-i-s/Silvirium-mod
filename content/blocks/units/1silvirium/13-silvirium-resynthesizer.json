@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "Silvirium resynthesizer",
-    "description": "Upgrade (silvirium T2) to (silvirium T3).",
+    "name": "[#88aaff]Silvirium resynthesizer",
+    "description": "Upgrade ([#88aaff]silvirium T2[]) to ([#88aaff]silvirium T3[]).",
     "health": 1800,
     "size": 5,
     "constructTime": 1800,
