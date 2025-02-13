@@ -25,7 +25,7 @@
   "range":40,
   "maxRange":224,
   "ammoCapacity":900,
-  "ammoType":"silvirum",
+  "ammoType":"silvirium",
   "itemCapacity":25,
   "outlineRadius":0.5,
   "weapons":[{
