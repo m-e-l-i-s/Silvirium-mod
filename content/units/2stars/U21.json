@@ -24,10 +24,10 @@
       "reload": 180,
       "shootSound": "none",
       "shootY": 0,
-      "rotate": true,
+      "rotate": false,
       "mirror": false,
       "continuous":true,
-      "alwaysContinuous":true,
+      "alwaysContinuous":false,
       "bullet": {
         "type": "BasicBulletType",
         "sprite":"particle",
@@ -55,7 +55,7 @@
         "bulletInterval":30,
         "intervalBullets":2,
         "intervalSpread":15,
-        "intervalDelay":60,
+        "intervalDelay":-1,
         "intervalBullet":{
           "type":"BulletType",
           "sprite":"missile",
