@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "silvirium regrower",
-    "description": "Upgrades (silvirum T3) to powerful (silvirum T4).",
+    "name": "Silvirium regrower",
+    "description": "Upgrades (Silvirum T3) to powerful (Silvirum T4).",
     "health": 3600,
     "size": 7,
     "constructTime": 3600,
