@@ -9,11 +9,11 @@
   "canOverdrive":true,
   "hasBoost": false,
   "speedBoost":-2,
+  "powerProduction":2,
   "reload": 120,
   "category": "power",
   "outputsPower":true,
   "consumes": {
-    "power":-2,
   "items":[
   {
       "item": "silicon",
