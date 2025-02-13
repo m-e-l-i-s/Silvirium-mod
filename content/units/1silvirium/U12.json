@@ -1,7 +1,7 @@
 {
     "type":"legs",
-    "name":"[#88aaff]silvirum Splitter",
-    "description":"The second silvirum unit equipped with 1 central shotgun.",
+    "name":"[#88aaff]Silvokeor",
+    "description":"The second silvirium unit equipped with 1 central shotgun.",
     "speed":1,
     "rotateMoveFirst":true,
     "hitSize":16,
@@ -24,7 +24,7 @@
     "range":64,
     "maxRange":120,
     "ammoCapacity":300,
-    "ammoType":"silvirum",
+    "ammoType":"silvirium",
     "itemCapacity":30,
     "outlineRadius":0.25,
     "weapons":[{
