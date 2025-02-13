@@ -1,6 +1,6 @@
 {
   "type":"naval",
-  "name":"[#88aaff]Bimodus",
+  "name":"[#88aaff]Bisilvur",
   "description":"This unit can switch between 2 modes.\n Air top speed: 11.25 tiles/second",
   "speed":1,
   "accel":0.2,
@@ -9,7 +9,7 @@
   "armor":2,
   "itemCapacity":10,
   "range":80,
-  "ammoType":"silvirum",
+  "ammoType":"silvirium",
   "ammoCapacity":30,
   "boostMultiplier":3,
   "canBoost":true,
