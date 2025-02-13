@@ -5,8 +5,8 @@
   "speed": 1.2,
   "rotateMoveFirst":true,
   "hitSize": 8,
-  "health": 165,
-  "armor":2,
+  "health": 170,
+  "armor":3,
   "range":60,
   "outlineRadius": 0.5,
   "maxRange":120,
@@ -41,7 +41,7 @@
       "bullet": {
         "type": "ContinuousFlameBulletType",
         "length": 60,
-        "damage": 1,
+        "damage": 1.25,
         "width": 1,
         "knockback": -0.1,
         "lifetime": 12,
@@ -59,11 +59,11 @@
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
-          1.1,1.2,0.2,
+          1.1,1.2,0.4,
           1.0,1.0,0.4,
           0.9,0.8,0.6,
           0.8,0.6,0.8,
-          50.7,0.4,1.0
+          50.7,0.4,0.9
         ],
         "hitEffect":{
         "type": "ParticleEffect",
