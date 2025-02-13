@@ -1,6 +1,6 @@
 {
   "type":"legs",
-  "name":"[#88aaff]silvirum summoner",
+  "name":"[#88aaff]Silvirum summoner",
   "description":"The most powerful silvirum unit, is great armored and has very good firepower, equipped with 2 sky eye spawners, 2 terrifying eyes, 2 large paralyzing eyes and a powerful piercing cannon",
   "speed":0.7,
   "rotateMoveFirst":true,
@@ -25,7 +25,7 @@
   "range":80,
   "maxRange":400,
   "ammoCapacity":900,
-  "ammoType":"silvirum",
+  "ammoType":"silvirium",
   "itemCapacity":80,
   "outlineRadius":0.5,
   "weapons":[{
