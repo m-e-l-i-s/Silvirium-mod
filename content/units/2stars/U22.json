@@ -10,7 +10,7 @@
   "range":40,
   "shadowElevationScl":1,
   "shadowElevation":0.2,
-  "maxRange":200,
+  "maxRange":40,
   "drag": 3,
   "immunities": ["burning"],
   "ammoCapacity":600,
