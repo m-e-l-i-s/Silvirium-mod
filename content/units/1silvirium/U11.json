@@ -1,7 +1,7 @@
 {
   "type": "mech",
   "name": "[#88aaff]Silvirror",
-  "description": "the first silvirium unit, equipped with 2 short-range twin conrinuous flamethrower and 1 medium-range center cannon. \nless effective against buildings",
+  "description": "the first silvirium unit, equipped with 2 short-range twin conrinuous blowtorch. \nless effective against buildings",
   "speed": 1.2,
   "rotateMoveFirst":true,
   "hitSize": 8,
@@ -29,7 +29,8 @@
       "shootCone": 10,
       "shootX": 0,
       "shootY": 2,
-      "mirror": false,
+      "alternate":false,
+      "mirror": true,
       "rotate":true,
       "top": false,
       "rotateSpeed": 2,
@@ -41,9 +42,9 @@
       "bullet": {
         "type": "ContinuousFlameBulletType",
         "length": 60,
-        "damage": 1.25,
-        "width": 1,
-        "knockback": -0.1,
+        "damage": 2.5,
+        "width": 1.5,
+        "knockback": -0.2,
         "lifetime": 12,
         "range": 60,
         "speed":0,
@@ -55,7 +56,7 @@
         "buildingDamageMultiplier": 0.5,
         "status":"disrupted",
         "statusDuration":900,
-        "impact":false,
+        "impact":true,
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
@@ -63,7 +64,7 @@
           1.0,1.0,0.4,
           0.9,0.8,0.6,
           0.8,0.6,0.8,
-          50.7,0.4,0.9
+          0.5.7,0.4,0.9
         ],
         "hitEffect":{
         "type": "ParticleEffect",
@@ -82,7 +83,7 @@
         },
         "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],
       }
-    },{
+    },/*{
       "name": "U11-side-L",
       "x": -8,
       "y": 0,
@@ -125,7 +126,7 @@
           1.0,1.0,0.4,
           0.9,0.8,0.6,
           0.8,0.6,0.8,
-          50.7,0.4,1.0
+          0.5.7,0.4,1.0
         ],
         "hitEffect":{
         "type": "ParticleEffect",
@@ -143,49 +144,7 @@
         "cone":360
         },
         "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],      }
-    },
-    {
-      "name": "U11-center",
-      "x":0,
-      "y": 6,
-      "reload": 20,
-      "shootSound": "flame",
-      "shootX": 0,
-      "shootY": 0,
-      "rotate":true,
-      "rotateSpeed": 5,
-      "rotationLimit": 10,
-      "shootCone": 5,
-      "mirror": false,
-      "bullet": {
-        "type": "fireBulletType",
-        "drag":0,
-        "collides": true,
-        "collidesAir" : true,
-        "collidesTiles" : true,
-        "fireTrailChance" : 0,
-        "range":120,
-        "speed": 4,
-        "lifetime": 30,
-        "damage": 5,
-        "pierce": true,
-        "pierce":4,
-        "pierceBuilding": true,
-        "buildingDamageMultiplier": 0.75,
-        "shootEffect": "none",
-        "colorFrom":"88aaff",
-        "colorMid":"445588",
-        "colorTo":"222744",
-        "fireEffectChance":0,
-        "fireEffectChance2":0,
-        "inaccuracy":0,
-        "velMin":4,
-        "velMax":4.3,
-        "ammoMultiplier":2,
-        "status": "disrupted",
-        "statusDuration": 60,
-     }
-    }
+    }*/
   ],
   "research": "11-silvirum-factory"
 }
