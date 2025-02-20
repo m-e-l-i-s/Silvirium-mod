@@ -1,7 +1,7 @@
 {
   "type": "mech",
   "name": "New Star",
-  "description": "(T1)Deals high damage with basic incendiary weapons",
+  "description": "(T1)Deals high damage with basic star weapons",
   "speed": 0.5,
   "rotateMoveFirst":true,
   "hitSize": 8,
@@ -58,7 +58,7 @@
           "splashDamageRadius":24,
           "splashDamage":3,
           "collides":true,
-          "drag":0.05,
+          "drag":0,
           "height": 10,
           "width": 10,
           "speed": 4,
