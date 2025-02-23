@@ -4,6 +4,7 @@
   "description": "the first silvirium unit, equipped with 2 short-range twin conrinuous blowtorch. \nless effective against buildings",
   "speed": 1.2,
   "rotateMoveFirst":true,
+  "forceMultiTarget":true,
   "hitSize": 8,
   "health": 170,
   "armor":3,
@@ -78,7 +79,7 @@
         "sizeTo": 1,
         "baseLength":0.5,
         "interp":"pow3Out",
-        "cone":360
+        "cone":90
         },
         "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],
       }
@@ -140,7 +141,7 @@
         "sizeTo": 1,
         "baseLength":0.5,
         "interp":"pow3Out",
-        "cone":360
+        "cone":90
         },
         "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],
       }
