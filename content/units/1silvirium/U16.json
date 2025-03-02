@@ -16,8 +16,8 @@
   "ammoCapacity":900,
   "ammoType":"silvirium",
   "itemCapacity":0,
-  "outlineRadius":0.1,
-  "drag":0.8,
+  "outlineRadius":0,
+  "drag":0.2,
   "drawEngine":false,
   "engineSize": 0,
   "deathExplosionEffect": {
@@ -67,18 +67,18 @@
         ],
         "hitEffect":{
         "type": "ParticleEffect",
-        "particles": 5,
+        "particles": 2,
         "rotWithParent": true,
         "line": true,
         "length":25,
-        "lifetime":30,
+        "lifetime":10,
         "colorFrom": "88aaff",
         "colorTo": "222744",
         "sizeFrom": 0.7,
         "sizeTo": 0.2,
         "baseLength":1,
         "interp":"pow3OutInverse",
-        "cone":360
+        "cone":60
         },
         "colors":["88aaff33","88aaff66","88aaff99","88aaffcc","88aaffff"],
       }
