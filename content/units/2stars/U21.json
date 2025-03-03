@@ -97,6 +97,19 @@
           "homingRange": 16,
           "frontColor":"FF5000",
           "backColor":"FFA550",
+          "parts":[{
+            "type": "FlarePart",
+            "outline" : false,
+            "mirror" : false,
+            "stroke":2,
+            "innerScl":0.9,
+            "innerRadScl":0.7,
+            "sides":5,
+            "radius":4,
+            "color1":"DD3300"
+            "color2":"FF5500"
+            "followRotation":true,
+          }]
           "shrinkY":0,
         },
         "fragBullets":1,
