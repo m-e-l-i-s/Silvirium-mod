@@ -105,7 +105,7 @@
         "fragRandomSpread":0,
         "fragSpread":0,
         "fragAngle":0
-        "fragBullet":{
+        /*"fragBullet":{
           "type": "LaserBulletType",
           "damage": 35,
           "lifetime":10,
@@ -113,7 +113,7 @@
           "status": "burning",
           "statusDuration": 120,
           "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
-        }
+        }/*
       }
      }],
     "research": "21star-forge"
