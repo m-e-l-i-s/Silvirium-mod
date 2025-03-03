@@ -16,6 +16,4 @@
     "buildSpeedMultiplier":1.2,
     "dragMultiplier":1.2,
     "effectChance":0.2,
-    "affinities":["accelerated-core-2"],
-    "transitionDamage":500000
 }
