@@ -19,8 +19,15 @@
       },{
       "unit": "U17",
       "requirements":[
-        "silvirium/50",
+        "silvirium/55",
         "silicon/60",
+      ],
+      "time": 1200
+      },{
+      "unit": "U31",
+      "requirements":[
+        "silvirium/120",
+        "silicon/70",
       ],
       "time": 1200
       }],
