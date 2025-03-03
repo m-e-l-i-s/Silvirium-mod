@@ -113,7 +113,7 @@
           "status": "burning",
           "statusDuration": 120,
           "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
-        }/*
+        }*/
       }
      }],
     "research": "21star-forge"
