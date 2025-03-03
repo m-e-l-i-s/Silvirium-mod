@@ -1,5 +1,5 @@
-{   name:"damage X"
-    effect :"none"
+{   "name":"damage X"
+    "effect" :"none"
     "alwaysUnlocked": true,
     "hideDetails":false,
     "show":true,
