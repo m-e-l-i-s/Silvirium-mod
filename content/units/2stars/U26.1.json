@@ -33,7 +33,7 @@
       "mirror" : false,
       "stroke":8,
       "innerScl":0.9,
-      "innerRadScl":2,
+      "innerRadScl":0.7,
       "sides":5,
       "radius":12,
       "color1":"DD3300"
