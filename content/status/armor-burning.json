@@ -10,7 +10,5 @@
     "alwaysUnlocked": true,
     "hideDetails":false,
     "show":true,
-    "permanent":true,
-    "affinities":["sand-nerf"],
-    "transitionDamage":300,
+    "permanent":false,
 }
