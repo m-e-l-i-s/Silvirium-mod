@@ -27,7 +27,7 @@
   "ammoCapacity":900,
   "ammoType":"silvirium",
   "itemCapacity":80,
-  "outlineRadius":0.5,
+  "outlineRadius":0,
   "weapons":[{
       "name": "U15-summon",
       "reload": 120,
@@ -222,7 +222,7 @@
         "controllable":false,
         "alwaysShooting":true,
         "useAmmo":false,
-        "shootStatus":"sand-nerf",
+        "shootStatus":"Silvirium-Status",
         "shootStatusDuration":60,
         "bullet": {
             "collides": false,
