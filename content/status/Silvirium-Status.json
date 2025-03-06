@@ -11,6 +11,6 @@
     "hideDetails":false,
     "show":false,
     "reactive":true,
-    "affinities":["sand-nerf"],
+    "affinities":["armor-burning"],
     "transitionDamage":300,
 }
