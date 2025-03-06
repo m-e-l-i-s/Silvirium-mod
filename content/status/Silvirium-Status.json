@@ -1,4 +1,4 @@
-{   "name":"nerf1",
+{   "name":"Silvirium-Status",
     "effect" :{
     "sizeFrom":1,
     "sizeTo" : 0,
@@ -11,6 +11,6 @@
     "hideDetails":false,
     "show":false,
     "reactive":true,
-    "affinities":["armor-burning"],
-    "transitionDamage":3000,
+    "affinities":["sand-nerf"],
+    "transitionDamage":300,
 }
