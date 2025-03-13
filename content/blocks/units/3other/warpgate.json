@@ -1,5 +1,6 @@
 {
  "type":"PayloadMassDriver",
+ "rotateSpeed":99999,
  "name":"Warpgate",
 "description": "Teleport payloads to another warpgate. \nconsumition:insane amounts of power(almost half an impact reactor EACH and you need at least 2).\ncost:yes",
 "consumes": {
