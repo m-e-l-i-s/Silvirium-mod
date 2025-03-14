@@ -1,7 +1,7 @@
 {
   "type":"legs",
   "name":"[#88aaff]Silvirum Crusher",
-  "description":"Attracts enemies with his laser shotgun to destroy them with his powerful jaws",
+  "description":"Attracts enemies with his laser shotguns to destroy them with his powerful jaws",
   "speed":1.45,
   "rotateMoveFirst":true,
   "hitSize":25,
@@ -23,7 +23,7 @@
   "legSplashDamage": 36,
   "legSplashRange": 12,
   "range":8,
-  "maxRange":24,
+  "maxRange":162,
   "ammoCapacity":900,
   "ammoType":"silvirium",
   "itemCapacity":80,
@@ -94,9 +94,9 @@
           },
       "bullet": {
         "type": "SapBulletType",
-        "sapStrength": 1,
+        "sapStrength": 0.8,
         "length": 162,
-        "damage": 9,
+        "damage": 10,
         "width": 0.5,
         "knockback": -1,
         "lifetime": 24,
@@ -123,4 +123,4 @@
           }}}],
   "research": "U13.0"
 }
-//563 dps max
+//400 dps max
