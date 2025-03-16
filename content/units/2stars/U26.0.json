@@ -158,9 +158,9 @@
         "splashDamagePierce":true,
         "status":"melting",
         "statusDuration":600,
-        "fragBullets":5,
-  	    "fragRandomSpread":9,
-  	    "fragSpread":14,
+        "fragBullets":20,
+  	    "fragRandomSpread":0,
+  	    "fragSpread":18,
   	    "fragBullet":{
   	      "type": "ShrapnelBulletType",
   	      "collidesAir" : false,
