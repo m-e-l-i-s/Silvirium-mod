@@ -4,6 +4,7 @@
   "description": "(Boss)The destruction contained in a higth resistant moving fortress powered by 1 mini star.",
   "speed": 0.3,
   "rotateMoveFirst":true,
+  "rotateSpeed": 3,
   "hitSize": 38,
   "health":35000,
   "armor":-2,
@@ -28,25 +29,25 @@
       "name": "U26.0-laser",
       "mirror": true,
       "rotate": true,
-      "rotateSpeed": 10,
-      "rotationLimit": 40,
+      "rotateSpeed": 4,
+      "rotationLimit": 45,
       "range":320,
-      "x": 24,
-      "shootY": 12,
+      "x": 23,
+      "shootY": 0,
       "shoot": {
           "type":"ShootBarrel",
           "barrels":[
 //        x  y rot      
-          0, 0, 0,
-          1, 0, 0,
-          0, 0, 0,
-          -1,0, 0,
+          0, 12, 0,
+          2, 12, 0,
+          0, 12, 0,
+          -2,12, 0,
       ],
       "barrelOffset": 1,
-      "shots":4,
-      "shotDelay":20
+      "shots":2,
+      "shotDelay":5
       },
-      "reload":120,
+      "reload":60,
       "shootSound": "laser",
       "bullet": {
           "type": "LaserBulletType",
@@ -60,6 +61,7 @@
       "name": "U26.0-solar-cannon",
       "mirror": true,
       "rotate": true,
+      "predictTarget": false,
       "rotateSpeed": 7,
       "rotationLimit": 85,
       "x": 18,
@@ -83,7 +85,6 @@
       "bullet": {
           "type": "BasicBulletType",
            "range":480,
-           "speed":2,
            "spawnUnit": "U26.1",
       }},{
       "name": "26star-boss-solar-explosion-weapon",
@@ -157,6 +158,18 @@
         "splashDamagePierce":true,
         "status":"melting",
         "statusDuration":600,
-    }}],
+        "fragBullets":5,
+  	    "fragRandomSpread":9,
+  	    "fragSpread":14,
+  	    "fragBullet":{
+  	      "type": "ShrapnelBulletType",
+  	      "collidesAir" : false,
+  	      "length": 160,
+  	      "width":60,
+  	      "frontColor": "99ff99",
+  	      "backColor": "77dd77",
+  	      "speed": 4,
+  	      "damage": 2,
+}}}],
 //    sun sharpel, abilities, arc shields, effect ability(sun buff)
 }
