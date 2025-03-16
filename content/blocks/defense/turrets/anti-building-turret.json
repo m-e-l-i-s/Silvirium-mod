@@ -215,10 +215,10 @@
   	"buildingDamageMultiplier":10,
   	"hittable":false,
   	"reflectable":false,
+  	"ammoMultiplier":1,
   	"fragBullets":5,
   	"fragRandomSpread":9,
   	"fragSpread":14,
-  	"ammoMultiplier":1,
   	"fragBullet":{
   	    "type": "BasicBulletType",
   	    "collidesAir" : false,
