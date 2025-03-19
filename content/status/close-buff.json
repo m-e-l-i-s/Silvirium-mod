@@ -6,7 +6,16 @@
     "healthMultiplier":1.2,
     "reloadMultiplier":1.2,
     "damageMultiplier":1.2,
-    "speedMultiplier":0.5,
+    "speedMultiplier":0.6,
     "dragMultiplier":8,
-    "initblock":{},
+    "applyEffect":{
+        "type": "WaveEffect",
+        "rotWithParent":false,
+        "sizeFrom": 0,
+        "sizeTo": 24,
+        "lifetime": 30,
+        "sides": 4,
+        "colorFrom": "88aaff",
+        "colorTo": "445588",
+    }
 }
