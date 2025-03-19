@@ -18,8 +18,8 @@
   "drawBody": false,
   "flying": true,
   "hidden": true,
-  "health": 6000,
-  "armor":1000,
+  "health": 2500,
+  "armor":0,
   "hitSize": 0.8,
   "engineSize": 1,
   "engineLayer":109,
@@ -55,7 +55,7 @@
       "controllable": true,
       "bullet":{
           "type":"ExplosionBulletType"
-          "splashDamage": 1200,
+          "splashDamage": 3800,
           "splashDamageRadius": 36,
           "hitEffect":{
               "type": "WaveEffect",
@@ -65,6 +65,19 @@
               "colorFrom": "FF9944",
               "colorTo": "AA330077"
           },
+        "fragBullets":5,
+  	    "fragRandomSpread":0,
+  	    "fragSpread":72,
+  	    "fragBullet":{
+          "type": "ShrapnelBulletType",
+  	      "collidesAir" : false,
+  	      "length": 48,
+  	      "width":10,
+  	      "fromColor": "FFDD9988",
+  	      "toColor": "FFFFFF",
+  	      "speed": 0,
+  	      "damage": 200,
+}
       }
   }],
 }
