@@ -2,7 +2,7 @@
   "type": "mech",
   "name": "New Star",
   "description": "(T1)Deals high damage with basic star weapons",
-  "speed": 0.7,
+  "speed": 0.8,
   "rotateMoveFirst":true,
   "hitSize": 8,
   "health": 135,
@@ -49,19 +49,19 @@
         "despawnHit":false,
         "drawFlare":false,
         "lengthWidthPans":[
-          1,1,1,
-          1,1,1,
-          1,1,1,
-          1,1,1,
-          1,1,1
+          1.2,1.2,0.8,
+          1.1,1.1,0.8,
+          1.0,1.0,0.8,
+          0.9,0.9,0.8,
+          0.8,0.8,0.8,
         ],
         "hitEffect":{
         "type": "ParticleEffect",
-        "particles": 1,
+        "particles": 3,
         "rotWithParent": true,
         "line": true,
         "length":40,
-        "lifetime":5,
+        "lifetime":10,
         "colorFrom": "FF5000",
         "colorTo": "222744",
         "sizeFrom": 0.1,
@@ -73,10 +73,10 @@
         "colors":["FF500066","FF500066","FF500099","FF500099","FF5000cc"],
         "status": "burning",
         "statusDuration": 120,
-        "intervalRandomSpread":10,
-        "bulletInterval":30,
-        "intervalBullets":2,
-        "intervalSpread":25,
+        "intervalRandomSpread":5,
+        "bulletInterval":15,
+        "intervalBullets":1,
+        "intervalSpread":10,
         "intervalDelay":-1,
         "intervalBullet":{
           "type":"BulletType",
@@ -106,27 +106,12 @@
             "innerRadScl":0.7,
             "sides":5,
             "radius":4,
-            "color1":"DD3300"
+            "color1":"CC2200"
             "color2":"FF5500"
             "followRotation":true,
           }]
           "shrinkY":0,
         },
-        "fragBullets":1,
-        "fragVelocityMin":0,
-        "fragVelocityMax":0,
-        "fragRandomSpread":0,
-        "fragSpread":0,
-        "fragAngle":0
-        /*"fragBullet":{
-          "type": "LaserBulletType",
-          "damage": 35,
-          "lifetime":10,
-          "length": 120,
-          "status": "burning",
-          "statusDuration": 120,
-          "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
-        }*/
       }
      }],
     "research": "21star-forge"
