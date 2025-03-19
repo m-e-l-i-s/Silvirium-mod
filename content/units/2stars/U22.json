@@ -2,13 +2,13 @@
   "type": "mech",
   "name": "Inviser",
   "description": "(T2)Deals high damage with 2 close-range fast firing dual barrel laser guns",
-  "speed": 0.8,
+  "speed": 1.4,
   "rotateMoveFirst":true,
   "priority":-0.4,
   "hitSize": 12,
   "health":500,
   "armor":0,
-  "range":40,
+  "range":24,
   "shadowElevationScl":1,
   "shadowElevation":0.2,
   "maxRange":40,
@@ -28,9 +28,9 @@
       "shoot": {
           "type":"ShootBarrel",
           "barrels":[
-//        x    y    rot      
-          -0.5,   1, 0, 
-          2   ,-1.5, 0,
+//         x  y  rot      
+          -0.5,1,0, 
+          2,-1.5,0,
       ],
       "barrelOffset": 1,
       },
@@ -44,6 +44,27 @@
           "statusDuration": 60,
           "colors": ["FF550099", "FF8800AA", "FFDD99FF"]
       }
-    },
+    },{
+        "name": "U22-close",
+        "reload":30,
+        "shootCone": 360,
+        "ejectEffect": "none",
+        "shootSound": "none",
+        "display":false,
+        "mirror": false,
+        "controllable":false,
+        "alwaysShooting":false,
+        "useAmmo":false,
+        "shootStatus":"close-buff",
+        "shootStatusDuration":60,
+        "bullet": {
+            "collides": false,
+            "damage":0,
+            "shootEffect":"none",
+            "smokeEffect":"none",
+            "despawnEffect":"none",
+            "range":24,
+            "instantDisappear":true,
+        }}
 ],
 }
