@@ -145,7 +145,7 @@
          }]},
         "speed":0,
         "lifetime": 90,
-        "splashDamageRadius":160,
+        "splashDamageRadius":140,
         "splashDamage":9500,
         "hittable":false,
         "collidesAir":true,
@@ -166,10 +166,10 @@
   	      "collidesAir" : false,
   	      "length": 160,
   	      "width":60,
-  	      "frontColor": "99ff99",
-  	      "backColor": "77dd77",
-  	      "speed": 4,
-  	      "damage": 2,
+  	      "fromColor": "FFDD9988",
+  	      "toColor": "FFFFFF",
+  	      "speed": 0,
+  	      "damage": 750,
 }}}],
 //    sun sharpel, abilities, arc shields, effect ability(sun buff)
 }
