@@ -48,7 +48,7 @@
         "type": "BasicBulletType",
         "width": 8,
         "height": 8,
-        "sprite":"arrow",
+        "sprite":"silvirium-arrow",
         "speed": 4,
         "lifetime": 30,
         "damage": 1,
