@@ -71,7 +71,6 @@
         "display":false,
         "mirror": false,
         "controllable":false,
-        "alwaysShooting":false,
         "useAmmo":false,
         "shootStatus":"close-buff",
         "shootStatusDuration":60,
