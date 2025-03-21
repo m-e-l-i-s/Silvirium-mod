@@ -145,18 +145,18 @@
         "splashDamagePierce":true,
         "status":"melting",
         "statusDuration":600,
-        "fragBullets":20,
+        "fragBullets":25,
   	    "fragRandomSpread":0,
-  	    "fragSpread":18,
+  	    "fragSpread":14.4,
   	    "fragBullet":{
   	      "type": "ShrapnelBulletType",
   	      "collidesAir" : false,
   	      "length": 160,
   	      "width":60,
-  	      "fromColor": "FFDD9988",
-  	      "toColor": "FFFFFF",
+  	      "fromColor": "FF5500",
+  	      "toColor": "FFA550",
   	      "speed": 0,
   	      "damage": 750,
 }}}],
-//    sun sharpel, abilities, arc shields, effect ability(sun buff)
+// abilities, arc shields, effect ability(sun buff)
 }
