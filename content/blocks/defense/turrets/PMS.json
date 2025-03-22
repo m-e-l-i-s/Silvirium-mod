@@ -17,9 +17,9 @@
     "shoot":{
       "type":"ShootBarrel",
       "barrels":[
-        0, 2, 0,
-        4, 0, 45,
-       -4, 0, -45
+        0, 3, 0,
+        -6, 0, 5,
+        6, 0, -5
       ],
       "barrelOffset": 1,
       "shots":3,
@@ -97,7 +97,8 @@
   },
       "plastanium": {
       	"type": "FlakBulletType",
-				"collidesGround":true,
+	      "collidesGround":true,
+				"sprite":"missile",
       	"height": 9,
       	"width": 7,
       	"frontColor":"99ff99",
@@ -117,8 +118,9 @@
   	    "splashDamageRadius":12,
  		    "splashDamage":10,
  	 	    "ammoMultiplier":4,
- 	 	    "fragBullets":4,
- 	 	    "fragRandomSpread":60,
+ 	 	    "fragBullets":3,
+ 	 	    "fragRandomSpread":10,
+				"fragSpread":30,
  	 	    "fragBullet":{
  	          "type": "MissileBulletType",
  	          "height": 8,
@@ -197,7 +199,7 @@
         "type":"MissileBulletType",
         "height": 6,
         "width": 4,
-        "damage":5,
+        "damage":10,
         "speed":2,
         "lifetime":112,
         "pierce": true,
@@ -206,7 +208,7 @@
         "backColor":"555555ff",
         "homingPower": 9,
         "homingRange": 200,
-        "buildingDamageMultiplier":5,
+        "buildingDamageMultiplier":2,
 }},
 "destroyBulletSameTeam":true,
 }
