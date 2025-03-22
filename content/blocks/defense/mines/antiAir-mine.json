@@ -77,7 +77,7 @@
     "type": "DrawTurret",
     "parts": [{
         "type":"RegionPart",
-        "name":"antiAir-mine",
+        "name":"-base",
         "mirror":false,
         "progress":"recoil",
         "x":0,
