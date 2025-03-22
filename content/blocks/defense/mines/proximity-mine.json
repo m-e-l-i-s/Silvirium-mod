@@ -32,7 +32,7 @@
     "type": "DrawTurret",
     "parts": [{
         "type":"RegionPart",
-        "suffix":"-base",
+        "suffix":"proximity-mine",
         "mirror":false,
         "progress":"recoil",
         "x":0,
