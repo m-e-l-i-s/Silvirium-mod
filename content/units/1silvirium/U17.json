@@ -1,10 +1,12 @@
 {
-  "type":"naval",
+  "type":"payload",
   "name":"[#88aaff]Bisilvur",
-  "description":"This unit can switch between 2 modes.\n Air top speed: 22.5 tiles/second\nBombs:\nDamage: 20,\nExplosion Radius: 2 Blocks",
+  "description":"This unit can switch between 2 modes.\n Air top speed: 22.5 tiles/second\nBombs:\nDamage: 10,\nExplosion Radius: 2 Blocks",
   "speed":1,
   "accel":0.7,
+  "naval":"true"
   "hitSize":7,
+  "payloadCapacity":64,
   "health":250,
   "armor":2,
   "itemCapacity":10,
@@ -18,7 +20,7 @@
       "name": "U17-missile",
       "x": 0,
       "y": 1,
-      "reload": 120,
+      "reload": 20,
       "shootSound":"missile",
       "shootX": 0,
       "shootY": 0,
@@ -34,8 +36,8 @@
         "shootEffect": "shootSmall",
         "width":6,
         "height":10,
-        "range":160,
-        "damage":60,
+        "range":10,
+        "damage":10,
         "splashDamageRadius":16,
         "splashDamage":80,
         "lifetime":20,
@@ -45,10 +47,10 @@
         }
     }
 ],
-  "abilities":[{
+/*  "abilities":[{
       "type":"MoveLightningAbility",
        "damage":0,
-       "chance":0.3,
+       "chance":0.6,
        "length":0,
        "minSpeed":0.7,
        "maxSpeed":1.7,
@@ -58,7 +60,7 @@
        "bullet": {
         "type":"BombBulletType",
         "splashDamageRadius":16,
-        "splashDamage":20,
+        "splashDamage":10,
         "collidesAir":true,
         "height": 12,
         "width": 8,
@@ -70,6 +72,6 @@
         "backColor":"445588",
      }
     }
-  ],
+  ],*/
   "research": "11-silvirium-factory"
 }
