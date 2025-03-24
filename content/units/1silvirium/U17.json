@@ -1,13 +1,12 @@
 {
-  "type":"payload",
+  "type":"naval",
   "name":"[#88aaff]Bisilvur",
   "description":"This unit can switch between 2 modes.\n Air top speed: 22.5 tiles/second\nBombs:\nDamage: 10,\nExplosion Radius: 2 Blocks",
   "speed":1,
-  "accel":0.7,
-  "naval":"true"
+  "accel":0.6,
   "hitSize":7,
-  "payloadCapacity":64,
   "health":250,
+  "faceTarget":false,
   "armor":2,
   "itemCapacity":10,
   "range":80,
@@ -47,7 +46,7 @@
         }
     }
 ],
-/*  "abilities":[{
+  "abilities":[{
       "type":"MoveLightningAbility",
        "damage":0,
        "chance":0.6,
@@ -72,6 +71,6 @@
         "backColor":"445588",
      }
     }
-  ],*/
+  ],
   "research": "11-silvirium-factory"
 }
