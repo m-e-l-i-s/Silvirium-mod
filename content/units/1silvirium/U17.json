@@ -1,6 +1,6 @@
 {
   "type":"naval",
-  "name":"[#88aaff]Bisilvur",
+  "name":"[#88aaff]Silviser",
   "description":"This unit can switch between 2 modes.\n Air top speed: 22.5 tiles/second\nBombs:\nDamage: 10,\nExplosion Radius: 2 Blocks",
   "speed":1,
   "accel":0.6,
