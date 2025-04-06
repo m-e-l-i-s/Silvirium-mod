@@ -1,10 +1,10 @@
 {   "name":"disrupted",
     "effect" :{
     "particles": 1,
-    "sizeFrom" :0.7,
+    "sizeFrom" :1,
     "sizeTo" : 1,
     "strokeFrom" : 1,
-    "strokeTo":0,
+    "strokeTo":1,
     "colorFrom":"88aaff",
     "colorTo":"445588"
 },
