@@ -2,12 +2,14 @@
   "type": "tank",
   "name": "[#8888AA]Roller",
   "description": "",
-  "health": 630,
+  "health": 620,
   "armor": 5,
-  "hitSize":8,
+  "hitSize":12,
   "crushDamage": 10,
+  "range": 80,
+  "maxRange": 80,
   "squareShape": true,
-  "treadPullOffset": 8,
+  "treadPullOffset": 10,
   "treadRects": [
     {
       "x": 2,
@@ -21,7 +23,6 @@
   "rotateSpeed": 5,
   "faceTarget": false,
   "flying": false,
-  "range": 80,
   "weapons": [
     {
       "name": "U31-weapon",
@@ -35,6 +36,7 @@
         "width": 6,
         "height": 16,
         "speed": 4,
+        "range":80,
         "lifetime": 20,
         "damage": 15,
         "pierce": true,
