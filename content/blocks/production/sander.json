@@ -7,8 +7,8 @@
   "research": "pulverizer",
   "craftEffect": "pulverize",
   "ambientSound": "grinding",
-  "ambientSoundVolume": 0.2,
-  "itemCapacity":20,
+  "ambientSoundVolume": 0.4,
+  "itemCapacity":24,
   "requirements": [
      "copper/70",
      "lead/60"
