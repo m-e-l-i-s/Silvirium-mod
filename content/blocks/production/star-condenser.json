@@ -25,7 +25,7 @@
   }
   ]
 },
-  "craftTime":750,
+  "craftTime":600,
   "outputItem": {
      "item": "star-fragment",
      "amount": 2
