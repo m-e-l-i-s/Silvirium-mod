@@ -15,10 +15,13 @@
   "shootWarmupSpeed":0.5,
   "warmupMaintainTime":200,
   "shootCone":1,
+  "velocityRnd":0,
   "researchCostMultiplier": 1,
   "inaccuracy": 0,
+  "scaleLifetimeOffset":0,
   "targetAir": false,
   "targetGround": true,
+  "shootSound":"artillery",
   "ammoTypes": {
       "pyratite": {
       "type": "BasicBulletType",
@@ -32,9 +35,9 @@
       "speed":8,
       "hitSize": 20,
       "splashDamage":0,
-      "fragBullets":1,
-      "fragRandomSpread":0,
-      "fragSpread":0,
+      "fragBullets":5,
+      "fragRandomSpread":1,
+      "fragSpread":72,
       "fragVelocityMin":0,
       "fragVelocityMax":0,
       "fragOffsetMin":8,
@@ -42,10 +45,10 @@
       "fragBullet":{
           "type": "ContinuousFlameBulletType",
           "length": 16,
-          "damage": 2,
-          "damageInterval": 1,
+          "damage": 1,
+          "damageInterval": 2,
           "width": 16,
-          "knockback": -0.1,
+          "knockback": -0.5,
           "impact":false,
           "lifetime": 120,
           "layer":3,
@@ -60,10 +63,10 @@
           "drawFlare":false,
           "lengthWidthPans":[
           1.2,1.2,0.4,
-          1.0,1.0,0.4,
-          0.8,0.8,0.4,
-          0.6,0.6,0.4,
-          0.4,0.4,0.4
+          1.0,1.0,0.5,
+          0.8,0.8,0.6,
+          0.6,0.6,0.7,
+          0.4,0.4,0.8
           ],
           "hitEffect":{
           "type": "ParticleEffect",
