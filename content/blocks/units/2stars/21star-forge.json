@@ -16,7 +16,7 @@
     "type":" AssemblerUnitPlan",
     "unit": "U21",
     "requirements": [
-      "silvirium-2-star-wall/2",
+      "silvirium-2-star-wall/1",
       "silvirium-6-silicon-wall/1"
     ],
     "time":600
@@ -27,15 +27,15 @@
       "silvirium-2-star-wall/6",
       "silvirium-6-silicon-wall/4"
     ],
-    "time":600
+    "time":900
   },{
     "type":" AssemblerUnitPlan",
     "unit": "U26.0",
     "requirements": [
-      "silvirium-2-star-wall/500",
+      "silvirium-2-star-wall/450",
       "silvirium-6-silicon-wall/1000"
     ],
-    "time":600
+    "time":7200
   }
 ],
 "squareSprite": false,
