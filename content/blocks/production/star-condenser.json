@@ -17,7 +17,7 @@
      "titanium/30"
   ],
   "consumes": {
-    "power":10,
+    "power":20,
   "liquids":[
   {
       "liquid": "water",
@@ -25,7 +25,7 @@
   }
   ]
 },
-  "craftTime":600,
+  "craftTime":300,
   "outputItem": {
      "item": "star-fragment",
      "amount": 2
