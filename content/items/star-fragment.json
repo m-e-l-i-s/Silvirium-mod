@@ -1,11 +1,11 @@
 {
     "name":"Star fragment",
-    "flammability": 0.5,
-    "radioactivity": 0,
-    "explosiveness": 0.2,
-    "charge": 0.5,
+    "flammability": 0.8,
+    "radioactivity": 1.5,
+    "explosiveness": 0.3,
+    "charge": 0.6,
     "research": {
         "parent": "silvirium"
     },
-    "color":"ff5030ff"
+    "color":"ff5030dd"
 }
