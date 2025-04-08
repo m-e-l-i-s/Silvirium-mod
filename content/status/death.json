@@ -5,4 +5,5 @@
     "hideDetails":false,
     "show":true,
     "damage":99999999,
+    "healthMultiplier":0,
 }
