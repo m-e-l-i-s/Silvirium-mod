@@ -3,9 +3,9 @@
     "flammability": 0,
     "radioactivity": 0,
     "explosiveness": 0,
-    "charge": 0,
-    "hardness":1.6,
-    "cost":1.6,
+    "charge": 0.005,
+    "hardness":1.55,
+    "cost":1.55,
     "research":"dustyus"
     "color":"00fff7"
 }
