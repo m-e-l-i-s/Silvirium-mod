@@ -1,5 +1,6 @@
 {   "name":"Accelerated Core II",
     "effect" :{
+    "particles":1,
     "lifetime":15,
     "sizeFrom":0,
     "sizeTo" : 2.5,
@@ -11,9 +12,9 @@
     "alwaysUnlocked": true,
     "hideDetails":false,
     "show":true,
-    "speedMultiplier":1.5,
-    "reloadMultiplier":1.5,
-    "buildSpeedMultiplier":1.3,
-    "dragMultiplier":1.6,
+    "speedMultiplier":1.65,
+    "reloadMultiplier":1.65,
+    "buildSpeedMultiplier":1.65,
+    "dragMultiplier":1.65,
     "effectChance":0.3,
 }
