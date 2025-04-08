@@ -1,33 +1,42 @@
 {
- "name":"Sand Block",
+ "name":"Live Block",
  "description": "This wall is very resistant to crushing , E.M.P and low damage bullet spam, by suplayng it with sand can regenerate.",
  "size":2,
  "category":"defense",
  "requirements":[
  	{
  		"item":"sand",
- 		"amount":"36"
+ 		"amount":"80"
+ 	},{
+ 		"spore-pod",
+ 		"amount":"80"
  	}
  ],
  "liquidCapacity":30,
- "health":700,
+ "health":2200,
  "type":"MendProjector",
  "armor":15,
  "buildCostMultiplier":0.5,
- "reload":120,
+ "reload":90,
  "phaseRangeBoost":0,
+ "phaseBoost":2,
  "range":0.1,
- "healPercent":10,
+ "healPercent":5,
  "consumes": { 
  "items":[{
  	"item": "sand",
+     	"amount":2,
+     	"optional":true,
+     	"booster":true,
+     },{
+ 	"item": "spore-pod",
      	"amount":2,
      	"optional":false,
      	"booster":false,
      }],
       "liquid":{
       	"liquid":"water",
-      	"amount":0.12,
+      	"amount":0.1,
       	"optional":true,
       	"booster":true,
       	}},
