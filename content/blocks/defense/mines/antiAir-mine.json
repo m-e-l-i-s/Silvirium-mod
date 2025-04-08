@@ -1,11 +1,11 @@
 {
   "type": "powerTurret",
   "name": "Anti Air Mine",
-  "description": "This mine self-deftructs on proximity to explode enemy targets",
+  "description": "This mine self-deftructs on proximity to explode air enemy targets",
   "health": 160,
   "range":48,
   "size": 1,
-  "reload":12,
+  "reload":3,
   "researchCostMultiplier": 1.5,
   "buildCostMultiplier":0.5,
   "inaccuracy": 360,
@@ -44,7 +44,7 @@
                 "hitSound":"explosion",
                 "status": "blasted",
                 "damage": 0,
-                "speed": 4,
+                "speed": 2,
                 "lifetime": 20,
                 "hitSize": 14,
                 "homingPower": 0.2,
@@ -63,13 +63,13 @@
                         "width": 8,
                         "frontColor": "d2d2d2",
                         "backColor": "9a9a9a",
-                        "speed": 4,
+                        "speed": 2,
                         "damage": 2, 
-                        "lifetime": 15,
+                        "lifetime": 20,
                         "pierce": true,
-                        "pierceCap": 5,
+                        "pierceCap": 7,
                         "collides": true,
-                        "homingPower": 0.05,
+                        "homingPower": 0.1,
                         "homingRange": 32,
 }}},
     "drawer": {
@@ -82,7 +82,7 @@
         "x":0,
         "y":0,
         "moveY":0,
-        "rotation":0,
+        "rotation":361,
         "under": false,
         //"layer":,
         }]},
@@ -91,7 +91,7 @@
       "amount": 10
     },
     {
-      "item": "copper",
+      "item": "metaglass",
       "amount": 30
     },
     {
