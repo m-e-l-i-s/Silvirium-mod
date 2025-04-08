@@ -1,12 +1,13 @@
 {   "name":"Accelerated Core I",
     "effect" :{
+    "particles":1,
     "lifetime":30,
     "sizeFrom":0,
     "sizeTo" : 2,
     "strokeFrom" : 0,
     "strokeTo":0.5,
-    "colorFrom":"ff5030ff",
-    "colorTo":"ff5030ff"
+    "colorFrom":"de2f1fde",
+    "colorTo":"de2f1fde"
 },
     "alwaysUnlocked": true,
     "hideDetails":false,
