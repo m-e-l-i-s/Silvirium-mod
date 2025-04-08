@@ -1,9 +1,9 @@
 {
   "name":"Antintuitive matter",
-  "flammability": 0.21,
-  "radioactivity": 0.15,
-  "explosiveness": -10,
-  "charge": -10,
+  "flammability": -8,
+  "radioactivity": -5,
+  "explosiveness": -4,
+  "charge": -9,
   "research": {
     "parent": "star-fragment"
 },
