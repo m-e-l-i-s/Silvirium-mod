@@ -11,9 +11,9 @@
     "alwaysUnlocked": true,
     "hideDetails":false,
     "show":true,
-    "speedMultiplier":1.2,
-    "reloadMultiplier":1.2,
-    "buildSpeedMultiplier":1.2,
-    "dragMultiplier":1.2,
+    "speedMultiplier":1.25,
+    "reloadMultiplier":1.25,
+    "buildSpeedMultiplier":1.25,
+    "dragMultiplier":1.25,
     "effectChance":0.2,
 }
