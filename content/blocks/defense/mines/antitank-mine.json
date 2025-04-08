@@ -1,9 +1,9 @@
 {
   "type": "powerTurret",
-  "name": "Anti-tank mine",
+  "name": "Antitank mine",
   "description": "This mine self-deftructs on proximity to explode enemy targets",
   "health": 1200,
-  "range":40,
+  "range":32,
   "trackingRange":48,
   "size": 2,
   "reload":3,
