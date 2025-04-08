@@ -1,0 +1,60 @@
+{
+  "type": "powerTurret",
+  "name": "Anti-tank mine",
+  "description": "This mine self-deftructs on proximity to explode enemy targets",
+  "health": 1200,
+  "range":40,
+  "trackingRange":48,
+  "size": 2,
+  "reload":3,
+  "researchCostMultiplier": 0.5,
+  "buildCostMultiplier":0.5,
+  "inaccuracy": 0,
+  "targetAir": false,
+  "targetGround": true,
+  "underBullets": true,
+  "destructible": true,
+  "shootSound": "pip",
+  "solid": false,
+  "targetable": false,
+  "shootType": {
+        "type": "ExplosionBulletType",
+        "collidesAir":false,
+        "pierce":true,
+        "pierceBuilding":true,
+        "impact":false,
+        "despawnHit":false,
+        "splashDamage":720,
+        "splashDamageRadius":42,
+        "status": "blasted"
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [{
+        "type":"RegionPart",
+        "suffix":"-base",
+        "mirror":false,
+        "progress":"recoil",
+        "x":0,
+        "y":0,
+        "moveY":0,
+        "rotation":361,
+        "under": false,
+        //"layer":,
+        }]},
+  "requirements":[{
+      "item": "blast-compound",
+      "amount": 70
+    },
+    {
+      "item": "titanium",
+      "amount": 30
+    },
+    {
+      "item": "graphite",
+      "amount": 30
+    }],
+  "crushDamageMultiplier":-0.1,
+  "category": "effect",
+  "research":"fire-hell"
+}
