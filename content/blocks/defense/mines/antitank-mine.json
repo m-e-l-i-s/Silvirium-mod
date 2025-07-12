@@ -55,9 +55,9 @@
     },
     {
       "item": "graphite",
-      "amount": 30
+      "amount": 40
     }],
   "crushDamageMultiplier":-0.1,
   "category": "effect",
-  "research":"fire-hell"
+  "research":"antiAir-mine"
 }
