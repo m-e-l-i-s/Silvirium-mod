@@ -1,0 +1,62 @@
+{
+  "type": "powerTurret",
+  "name": "Antitank mine",
+  "description": "This mine self-deftructs on proximity to shoot a homing-AP bolt at mideum-range enemy targets",
+  "health": 300,
+  "range":80,
+  "trackingRange":48,
+  "size": 2,
+  "reload":2,
+  "armor":1,
+  "researchCostMultiplier": 0.5,
+  "buildCostMultiplier":2,
+  "inaccuracy": 0,
+  "targetAir": true,
+  "targetGround": true,
+  "underBullets": true,
+  "destructible": true,
+  "shootSound": "pip",
+  "solid": false,
+  "targetable": false,
+  "shootType": {
+        "type": "ShrapnelBulletType",
+        "length": 16,
+        "width":4,
+        "fromColor": "FFFFFF",
+        "toColor": "FFDD9988",
+        "speed": 2,
+        "lifetime":40,
+        "damage": 60,
+        "homingPower": 0.2,
+        "homingRange": 80,
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [{
+        "type":"RegionPart",
+        "suffix":"-base",
+        "mirror":false,
+        "progress":"recoil",
+        "x":0,
+        "y":0,
+        "moveY":0,
+        "rotation":361,
+        "under": false,
+        //"layer":,
+        }]},
+  "requirements":[{
+      "item": "lead",
+      "amount": 20
+    },
+    {
+      "item": "star-fragment",
+      "amount": 30
+    },
+    {
+      "item": "silicon",
+      "amount": 30
+    }],
+  "crushDamageMultiplier":0.5,
+  "category": "effect",
+  "research":"antitank-mine"
+}
