@@ -21,8 +21,8 @@
   "targetAir": true,
   "targetGround": true,
   "shootY":0,
-  "ammoPerShot":7,
-  "maxAmmo":20,
+  "ammoPerShot":9,
+  "maxAmmo":27,
   "ammoTypes": {
       "sand":{
           "type":"PointBulletType",
@@ -46,10 +46,10 @@
               "particles": 2,
               "rotWithParent": true,
               "line": true,
-              "length":50,
+              "length":5,
               "colorFrom": "ffffff",
               "colorTo": "eac2a9",
-              "sizeFrom": 3,
+              "sizeFrom": 2,
               "sizeTo": 12,
               "strokeFrom": 2,
               "strokeTo": 0,
@@ -59,7 +59,7 @@
               "particles": 2,
               "rotWithParent": true,
               "line": false,
-              "length":50,
+              "length":5,
               "colorFrom": "ffffff",
               "colorTo": "eac2a9",
               "sizeFrom": 3,
@@ -107,14 +107,14 @@
       "amount": 70,
     },{
       "item": "copper",
-      "amount": 90
+      "amount": 70
     },{
       "item": "lead",
-      "amount": 60
+      "amount": 70
     },{
       "item": "sand",
-      "amount":100,
+      "amount":70,
     }],
   "category": "turret",
-  "research":"anti-building-turret"
+  "research":"PMS"
 }
