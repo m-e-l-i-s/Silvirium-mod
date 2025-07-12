@@ -5,16 +5,16 @@
     "size": 2,
     "category": "units",
     "requirements":[
-        "star-fragment/55",
-        "titanium/145",
-        "silicon/90",
-        "graphite/65"
+        "star-fragment/30",
+        "titanium/60",
+        "silicon/60",
+        "graphite/60"
     ],
     "hasPower": true,
     "consumes": {
         "power": 1
     },
-    "buildSpeed": 0.1,
+    "buildSpeed": 0.2,
     "filter": [
     "2-star-wall",
     "3-star-wall-large",
