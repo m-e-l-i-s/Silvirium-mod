@@ -32,10 +32,10 @@
     "type":" AssemblerUnitPlan",
     "unit": "U26.0",
     "requirements": [
-      "silvirium-2-star-wall/450",
+      "silvirium-2-star-wall/500",
       "silvirium-6-silicon-wall/1000"
     ],
-    "time":7200
+    "time":3600
   }
 ],
 "squareSprite": false,
