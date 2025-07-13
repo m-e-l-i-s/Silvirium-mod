@@ -1,6 +1,6 @@
 {
   "type": "powerTurret",
-  "name": "Antitank mine",
+  "name": "Shrapel mine",
   "description": "This mine self-deftructs on proximity to shoot a homing-AP bolt at mideum-range enemy targets",
   "health": 300,
   "range":80,
