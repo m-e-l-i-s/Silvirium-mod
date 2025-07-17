@@ -1,6 +1,6 @@
 {
   "type": "powerTurret",
-  "name": "Shrapel mine",
+  "name": "Storb mine",
   "description": "This mine self-deftructs on proximity to shoot AP bullets at mideum-range enemy targets",
   "health": 300,
   "range":80,
@@ -19,6 +19,8 @@
   "solid": false,
   "targetable": false,
   "shoot":{
+    "type":"ShootSpread",
+    "spread":3,
     "shots":5,
   }
   "shootType": {
