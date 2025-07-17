@@ -1,7 +1,7 @@
 {
   "type": "powerTurret",
   "name": "Shrapel mine",
-  "description": "This mine self-deftructs on proximity to shoot a homing-AP bolt at mideum-range enemy targets",
+  "description": "This mine self-deftructs on proximity to shoot AP bullets at mideum-range enemy targets",
   "health": 300,
   "range":80,
   "trackingRange":48,
@@ -18,18 +18,23 @@
   "shootSound": "pip",
   "solid": false,
   "targetable": false,
+  "shoot":{
+    "shots":5,
+  }
   "shootType": {
-        "type": "ShrapnelBulletType",
-        "length": 10,
+        "type": "BasicBulletType",
+        "heigth": 10,
         "width":6,
-        "fromColor": "FFFFFF99",
-        "toColor": "FFDD9988",
+        "sprite":"large-orb-back",
+        "colorFrom": "FFFFFF99",
+        "colorTo": "FFDD9988",
         "killShooter":true,
         "speed": 2,
         "lifetime":40,
-        "damage": 60,
+        "damage": 10,
         "homingPower": 0.3,
         "homingRange": 88,
+        "shrinkY":0,
   },
   "drawer": {
     "type": "DrawTurret",
