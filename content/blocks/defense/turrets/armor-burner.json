@@ -4,12 +4,12 @@
   "description":"fire;damage zone",
   "health":1440,
   "reload":240,
-  "coolantMultiplier":2,
-  "range":200,
+  "coolantMultiplier":2.2,
+  "range":240,
   "size":3,
   "consumes": { 
     "coolant": { 
-       "amount":0.3
+       "amount":0.4
     } 
   },
   "shootWarmupSpeed":0.5,
@@ -31,9 +31,9 @@
       "width": 20,
       "frontColor":"f8ad42",
       "backColor":"f68021",
-      "damage":0,
+      "damage":10,
       "speed":4,
-      "lifetime":50,
+      "lifetime":60,
       "hitSize": 20,
       "splashDamage":0,
       "fragBullets":10,
@@ -45,15 +45,15 @@
       "fragOffsetMax":8,
       "fragBullet":{
           "type": "ContinuousFlameBulletType",
-          "length": 16,
+          "length": 20,
           "damage": 2,
           "damageInterval": 2,
-          "width": 16,
-          "knockback": -1.5,
+          "width": 20,
+          "knockback": -1.8,
           "impact":false,
           "lifetime": 120,
           "layer":3,
-          "speed":-0.05,
+          "speed":-0.1,
           "hittable":false,
           "collidesAir":false,
           "pierce":true,
@@ -71,11 +71,11 @@
           ],
           "hitEffect":{
           "type": "ParticleEffect",
-          "particles": 5,
+          "particles": 3,
           "rotWithParent": true,
           "line": true,
           "length":25,
-          "lifetime":30,
+          "lifetime":10,
           "colorFrom": "FF5500",
           "colorTo": "FF5500",
           "sizeFrom": 0.7,
@@ -104,16 +104,16 @@
   "requirements":[
   {
       "item": "silicon",
-      "amount": 900
+      "amount": 500
   },{
       "item": "graphite",
-      "amount": 650
+      "amount": 350
   },{
       "item": "star-fragment",
-      "amount": 175
+      "amount": 75
   },{
       "item": "titanium",
-      "amount": 450
+      "amount": 250
   }],
   "category": "turret",
   "research":"PMS",
