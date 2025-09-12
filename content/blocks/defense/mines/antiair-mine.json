@@ -76,7 +76,7 @@
     "type": "DrawTurret",
     "parts": [{
         "type":"RegionPart",
-        "name":"-base",
+        "suffix":"-base",
         "mirror":false,
         "progress":"recoil",
         "x":0,
