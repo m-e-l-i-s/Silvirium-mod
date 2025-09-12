@@ -33,7 +33,7 @@
         "killShooter":true,
         "speed": 2,
         "lifetime":40,
-        "damage": 10,
+        "damage": 35,
         "homingPower": 0.3,
         "homingRange": 88,
         "shrinkY":0,
