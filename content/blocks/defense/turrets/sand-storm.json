@@ -2,27 +2,27 @@
   "type": "ItemTurret",
   "name": "[yellow]Sand storm",
   "description": "Fires a laser beam at ground enemies, causing serious mechanical damage and weakening them.",
-  "health": 1100,
+  "health": 1155,
   "reload": 120,
-  "coolantMultiplier":1.5,
+  "coolantMultiplier":2,
   "range": 360,
   "trackingRange":400,
   "size": 3,
   "consumes": {
     "coolant": { 
-       "amount": 0.3
+       "amount": 0.25
     }
   },
   "shootSound": "laser",
   "unitSort":"strongest",
-  "researchCostMultiplier": 1,
+  "researchCostMultiplier": 0.5,
   "inaccuracy":0,
   "predictTarget":false,
   "targetAir": true,
   "targetGround": true,
-  "shootY":0,
-  "ammoPerShot":9,
-  "maxAmmo":27,
+  "shootY":4,
+  "ammoPerShot":8,
+  "maxAmmo":24,
   "ammoTypes": {
       "sand":{
           "type":"PointBulletType",
@@ -73,7 +73,7 @@
           "damage":50,
           "fragBullets":1,
           "status": "terror",
-          "statusDuration": 300,
+          "statusDuration": 600,
           "fragBullet":{
               "type": "fireBulletType",
               "collides": true,
@@ -99,6 +99,33 @@
               "statusDuration": 1800,
               "homingPower":9,
               "homingRange":60,
+              "fragBullet":{
+                "type": "fireBulletType",
+                "collides": true,
+                "collidesAir" : true,
+                "collidesTiles" : true,
+                "fireTrailChance" : 0,
+                "speed": 8,
+                "lifetime": 20,
+                "damage": 0,
+                "pierce": true,
+                "pierceCap":5,
+                "knockback":25,
+                "pierceBuilding": true,
+                "shootEffect": "none",
+                "smokeEffect": "none",
+                "colorFrom":"fff0af",
+                "colorMid":"ddd08d",
+                "colorTo":"999049",
+                "fireEffectChance":0,
+                "fireEffectChance2":0,
+                "velMin":8,
+                "velMax":8,
+                "status": "no-friction",
+                "statusDuration": 1800,
+                "homingPower":9,
+                "homingRange":60,
+            }
           }
       }
   },
