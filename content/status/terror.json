@@ -10,9 +10,9 @@
     "alwaysUnlocked": true,
     "hideDetails":false,
     "show":true,
-    "speedMultiplier":0.7,
-    "damageMultiplier":0.7,
-    "buildSpeedMultiplier":0.7,
+    "speedMultiplier":0.6,
+    "damageMultiplier":0.6,
+    "buildSpeedMultiplier":0.6,
     "effectChance":0.3,
     "damage":0,
 }
