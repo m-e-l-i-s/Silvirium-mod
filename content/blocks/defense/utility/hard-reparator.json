@@ -40,4 +40,5 @@
 "conductivePower":true,
 "hasLiquids" :true,
 "itemCapacity":15
+"research":"warpgate",
 }
