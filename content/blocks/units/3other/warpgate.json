@@ -17,12 +17,12 @@
   "lead/19500"
 ],
 "solid":false,
-"reload":30,
-"chargeTime": 30,
+"reload":10,
+"chargeTime": 0,
 "range": 8000,
 "maxPayloadSize": 9,
 "scaledHealth":90,
 "size": 7,
 "buildCostMultiplier":0.01,
-"researchCostMultiplier":0.01
+"researchCostMultiplier":0.5
 }
