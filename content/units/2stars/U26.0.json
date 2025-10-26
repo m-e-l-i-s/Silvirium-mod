@@ -51,26 +51,12 @@
       "shootSound": "laser",
       "bullet": {
           "type": "LaserBulletType",
-          "damage": 800,
+          "damage": 900,
           "length": 325,
           "pierceArmor":true,
           "status": "burning",
           "statusDuration": 300,
           "colors": ["FF550099", "FF8800AA", "FFDD99FF"],
-          "fragBullets":1,
-  	      "fragRandomSpread":0,
-  	      "fragSpread":0,
-          "fragBullet":{
-  	        "type": "BulletType",
-  	        "speed": 4,
-  	        "width":4,
-  	        "fromColor": "FF5500",
-  	        "toColor": "FFA550",
-  	        "speed": 5,
-            "lifetime":65,
-  	        "damage": 6000,
-            "maxDamageFraction": 0.025,
-          }
       }},{
       "name": "U26.0-solar-cannon",
       "mirror": true,
