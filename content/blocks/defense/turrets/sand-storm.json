@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "[yellow]Sand storm",
-  "description": "Fires a laser beam at ground enemies, causing serious mechanical damage and weakening them.",
+  "description": "Fires a laser beam at enemies, causing serious mechanical damage and weakening them.",
   "health": 1155,
   "reload": 120,
   "coolantMultiplier":2,
