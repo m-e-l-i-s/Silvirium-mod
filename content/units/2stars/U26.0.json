@@ -51,7 +51,8 @@
       "shootSound": "laser",
       "bullet": {
           "type": "LaserBulletType",
-          "damage": 300,
+          "damage": 6000,
+          maxDamageFraction = 0.1f;
           "length": 325,
           "pierceArmor":true,
           "status": "burning",
