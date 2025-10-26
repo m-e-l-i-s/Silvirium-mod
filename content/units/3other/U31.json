@@ -6,8 +6,8 @@
   "armor": 5,
   "hitSize":12,
   "crushDamage": 10,
-  "range": 80,
-  "maxRange": 80,
+  "range": 240,
+  "maxRange": 240,
   "squareShape": true,
   "treadPullOffset": 10,
   "treadRects": [
@@ -36,13 +36,13 @@
         "width": 6,
         "height": 16,
         "speed": 4,
-        "range":80,
-        "lifetime": 20,
+        "range":240,
+        "lifetime": 60,
         "damage": 15,
         "pierce": true,
         "pierceBuilding":true,
         "pierceCap":3,
       }},
   ],
-  "research": ""
+  "research": "11-silvirium-factory"
 }
