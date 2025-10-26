@@ -1,0 +1,18 @@
+{   "name":"noFriction",
+    "effect" :{
+    "particles": 1,
+    "sizeFrom" :1,
+    "sizeTo" : 1,
+    "strokeFrom" : 1,
+    "strokeTo":1,
+    "colorFrom":"00FFFF",
+    "colorTo":"33999999"
+},
+    "alwaysUnlocked": true,
+    "hideDetails":false,
+    "show":true,
+    "speedMultiplier":2,
+    "dragMultiplier":0,
+    "effectChance":0.05,
+    "damage":0,
+}
