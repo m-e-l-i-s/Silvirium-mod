@@ -4,14 +4,14 @@
   "description": "P.M.S(Portable Missile System)",
   "health":325,
   "reload":30,
-  "coolantMultiplier":2,
+  "coolantMultiplier":2.5,
   "range":200,
   "size":1,
   "maxAmmo":60,
-  "liquidCapacity":60,
+  "liquidCapacity":180,
   "consumes": { 
     "coolant": { 
-       "amount":0.4
+       "amount":0.3
     } 
   },
     "shoot":{
@@ -26,7 +26,7 @@
     },
   "alwaysUpdateInUnits":true,
   "shootCone":40,
-  "researchCostMultiplier": 0.75,
+  "researchCostMultiplier": 0.5,
   "inaccuracy": 2,
   "targetAir": true,
   "targetGround": true,
@@ -143,14 +143,14 @@
       "width": 8,
       "frontColor":"ff5030ff",
       "backColor":"ff5030ff",
-      "damage": 1,
-      "speed": 1,
-      "lifetime":200,
+      "damage": 15,
+      "speed": 0.8,
+      "lifetime":250,
       "hitSize": 10,
       "pierce": true,
       "pierceBuilding": true,
       "intervalRandomSpread":20,
-      "bulletInterval":40,
+      "bulletInterval":60,
       "reloadMultiplier":0.5,
       "intervalBullets":2,
       "intervalSpread":270,
@@ -161,7 +161,7 @@
       "buildingDamageMultiplier":4,
       "intervalBullet":{
         "type":"MissileBulletType",
-        "damage":8,
+        "damage":12,
         "height": 4,
         "speed":4,
         "lifetime":30,
