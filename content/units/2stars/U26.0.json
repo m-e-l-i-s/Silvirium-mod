@@ -52,7 +52,7 @@
       "bullet": {
           "type": "LaserBulletType",
           "damage": 6000,
-          maxDamageFraction = 0.1f;
+          "maxDamageFraction" = 0.1f,
           "length": 325,
           "pierceArmor":true,
           "status": "burning",
