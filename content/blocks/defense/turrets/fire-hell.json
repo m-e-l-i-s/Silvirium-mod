@@ -24,12 +24,12 @@
   "inaccuracy":8,
   "targetAir": true,
   "targetGround": true,
-  "shootY":-2,
+  "shootY":-1,
       "shoot": {
           "type": "ShootAlternate",
           "spread":6,
           "shots": 10,
-          "shotDelay":0.5
+          "shotDelay":0.8
       },
   "ammoTypes": {
       "pyratite": {
@@ -62,7 +62,6 @@
         "collides": true,
         "collidesAir" : true,
         "collidesTiles" : true,
-        "fireTrailChance" : 0,
         "drag": 0.04,
         "speed": 1,
         "lifetime": 50,
@@ -87,7 +86,6 @@
         "collides": true,
         "collidesAir" : true,
         "collidesTiles" : true,
-        "fireTrailChance" : 0,
         "knockback" : -0.1,
         "drag": 0.04,
         "speed": 1,
@@ -102,13 +100,41 @@
         "colorFrom":"ffffffff",
         "colorMid":"22222222",
         "colorTo":"99999999",
-        "fireEffectChance":0,
-        "fireEffectChance2":0,
+        "fireEffectChance":0.2,
+        "fireEffectChance2":0.2,
         "velMin":3.9,
         "velMax":4.2,
         "ammoMultiplier":4,
         "status":"slow",
         "statusDuration":180
+        "trailEffect":{
+              "type": "ParticleEffect",
+              "particles": 1,
+              "rotWithParent": true,
+              "line": true,
+              "length":5,
+              "colorFrom": "ffffffff",
+              "colorTo": "22222222",
+              "sizeFrom": 2,
+              "sizeTo": 12,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "cone":360
+        }
+        "trailEffect2":{
+              "type": "ParticleEffect",
+              "particles": 1,
+              "rotWithParent": true,
+              "line": true,
+              "length":5,
+              "colorFrom": "22222222",
+              "colorTo": "99999999",
+              "sizeFrom": 2,
+              "sizeTo": 12,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "cone":360
+        }
     },
     "plastanium": {
         "type": "fireBulletType",
@@ -129,7 +155,21 @@
         "colorFrom":"88ffff",
         "colorMid":"66aa55",
         "colorTo":"225511",
-        "fireEffectChance":0,
+        "fireEffectChance":0.25,
+        "trailEffect":{
+              "type": "ParticleEffect",
+              "particles": 1,
+              "rotWithParent": true,
+              "line": true,
+              "length":5,
+              "colorFrom": "88ffff",
+              "colorTo": "225511",
+              "sizeFrom": 2,
+              "sizeTo": 12,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "cone":360
+        }
         "fireEffectChance2":0,
         "healPercent":0.25,
         "velMin":4,
