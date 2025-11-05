@@ -218,7 +218,7 @@
   	"hittable":false,
   	"reflectable":false,
   	"ammoMultiplier":1,
-	"splashDamageRadius"16,
+	"splashDamageRadius":16,
   	"splashDamage":1,
   	"fragBullets":5,
   	"fragRandomSpread":9,
