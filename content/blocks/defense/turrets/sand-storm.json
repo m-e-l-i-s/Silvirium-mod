@@ -4,7 +4,7 @@
   "description": "Fires a laser beam at enemies, causing serious mechanical damage and weakening them.",
   "health": 1155,
   "reload": 120,
-  "coolantMultiplier":2,
+  "coolantMultiplier":4,
   "range": 400,
   "trackingRange":400,
   "size": 3,
