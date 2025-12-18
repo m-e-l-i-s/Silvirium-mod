@@ -2,7 +2,7 @@
     "type": "UnitAssemblerModule",
     "name":"T6 star coso",
     "description":"",
-    "size": 1,
+    "size": 4,
     "category": "units",
     "research": "21star-forge",
     "requirements": [
