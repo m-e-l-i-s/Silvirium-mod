@@ -504,7 +504,7 @@
   		"width": 0,
   		"damage": 500,
   		"buildingDamageMultiplier":0,
-  	  }},
+  	  },
     }},
     "drawer": {
     "type": "DrawTurret",
